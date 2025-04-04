@@ -1,0 +1,2111 @@
+import { Android } from './lib/android';
+import { ArrowLeft } from './lib/arrowLeft';
+import { BookMark } from './lib/bookMark';
+import { CertificateIcon } from './lib/certificateIcon';
+import { CheckboxCancelDialog } from './lib/checkboxCancelDialog';
+import { CheckboxCheckedIcon } from './lib/checkboxCheckedIcon';
+import { ClockIcon } from './lib/clockIcon';
+import { CloseIcon } from './lib/closeIcon';
+import { CoreValueIcon } from './lib/coreValueIcon';
+import { Dots } from './lib/dots';
+import { ErrorOutlineIcon } from './lib/errorOutlineIcon';
+import { ExpandMoreIcon } from './lib/expandMoreIcon';
+import { FacebookIcon } from './lib/facebookIcon';
+import { FIle } from './lib/fIle';
+import { GetPro } from './lib/getPro';
+import { Icon10k } from './lib/icon10k';
+import { Icon10mp } from './lib/icon10mp';
+import { Icon11mp } from './lib/icon11mp';
+import { Icon12mp } from './lib/icon12mp';
+import { Icon13mp } from './lib/icon13mp';
+import { Icon14mp } from './lib/icon14mp';
+import { Icon15mp } from './lib/icon15mp';
+import { Icon16mp } from './lib/icon16mp';
+import { Icon17mp } from './lib/icon17mp';
+import { Icon18 } from './lib/icon18';
+import { Icon18mp } from './lib/icon18mp';
+import { Icon19mp } from './lib/icon19mp';
+import { Icon1k } from './lib/icon1k';
+import { Icon1x } from './lib/icon1x';
+import { Icon20mp } from './lib/icon20mp';
+import { Icon21mp } from './lib/icon21mp';
+import { Icon22mp } from './lib/icon22mp';
+import { Icon23mp } from './lib/icon23mp';
+import { Icon24mp } from './lib/icon24mp';
+import { Icon2k } from './lib/icon2k';
+import { Icon2mp } from './lib/icon2mp';
+import { Icon30fps } from './lib/icon30fps';
+import { Icon360 } from './lib/icon360';
+import { Icon3d } from './lib/icon3d';
+import { Icon3g } from './lib/icon3g';
+import { Icon3k } from './lib/icon3k';
+import { Icon3mp } from './lib/icon3mp';
+import { Icon3p } from './lib/icon3p';
+import { Icon4g } from './lib/icon4g';
+import { Icon4k } from './lib/icon4k';
+import { Icon4mp } from './lib/icon4mp';
+import { Icon5g } from './lib/icon5g';
+import { Icon5k } from './lib/icon5k';
+import { Icon5mp } from './lib/icon5mp';
+import { Icon60fps } from './lib/icon60fps';
+import { Icon6k } from './lib/icon6k';
+import { Icon6mp } from './lib/icon6mp';
+import { Icon7k } from './lib/icon7k';
+import { Icon7mp } from './lib/icon7mp';
+import { Icon8k } from './lib/icon8k';
+import { Icon8mp } from './lib/icon8mp';
+import { Icon9k } from './lib/icon9k';
+import { Icon9mp } from './lib/icon9mp';
+import { IconAbc } from './lib/iconAbc';
+import { IconAc } from './lib/iconAc';
+import { IconAccess } from './lib/iconAccess';
+import { IconAccessibility } from './lib/iconAccessibility';
+import { IconAccessible } from './lib/iconAccessible';
+import { IconAccount } from './lib/iconAccount';
+import { IconAd } from './lib/iconAd';
+import { IconAdb } from './lib/iconAdb';
+import { IconAdd } from './lib/iconAdd';
+import { IconAddchart } from './lib/iconAddchart';
+import { IconAdf } from './lib/iconAdf';
+import { IconAdjust } from './lib/iconAdjust';
+import { IconAdmin } from './lib/iconAdmin';
+import { IconAds } from './lib/iconAds';
+import { IconAgriculture } from './lib/iconAgriculture';
+import { IconAir } from './lib/iconAir';
+import { IconAirline } from './lib/iconAirline';
+import { IconAirlines } from './lib/iconAirlines';
+import { IconAirplane } from './lib/iconAirplane';
+import { IconAirplanemode } from './lib/iconAirplanemode';
+import { IconAirplay } from './lib/iconAirplay';
+import { IconAirport } from './lib/iconAirport';
+import { IconAlarm } from './lib/iconAlarm';
+import { IconAlbum } from './lib/iconAlbum';
+import { IconAlign } from './lib/iconAlign';
+import { IconAll } from './lib/iconAll';
+import { IconAlt } from './lib/iconAlt';
+import { IconAlternate } from './lib/iconAlternate';
+import { IconAnalytics } from './lib/iconAnalytics';
+import { IconAnchor } from './lib/iconAnchor';
+import { IconAndroid } from './lib/iconAndroid';
+import { IconAnimation } from './lib/iconAnimation';
+import { IconAnnouncement } from './lib/iconAnnouncement';
+import { IconAod } from './lib/iconAod';
+import { IconApartment } from './lib/iconApartment';
+import { IconApi } from './lib/iconApi';
+import { IconApp } from './lib/iconApp';
+import { IconApproval } from './lib/iconApproval';
+import { IconApps } from './lib/iconApps';
+import { IconArchitecture } from './lib/iconArchitecture';
+import { IconArchive } from './lib/iconArchive';
+import { IconArea } from './lib/iconArea';
+import { IconArrow } from './lib/iconArrow';
+import { IconArt } from './lib/iconArt';
+import { IconArticle } from './lib/iconArticle';
+import { IconAspect } from './lib/iconAspect';
+import { IconAssessment } from './lib/iconAssessment';
+import { IconAssignment } from './lib/iconAssignment';
+import { IconAssist } from './lib/iconAssist';
+import { IconAssistant } from './lib/iconAssistant';
+import { IconAssured } from './lib/iconAssured';
+import { IconAtm } from './lib/iconAtm';
+import { IconAttach } from './lib/iconAttach';
+import { IconAttachment } from './lib/iconAttachment';
+import { IconAttractions } from './lib/iconAttractions';
+import { IconAttribution } from './lib/iconAttribution';
+import { IconAudio } from './lib/iconAudio';
+import { IconAudiotrack } from './lib/iconAudiotrack';
+import { IconAuto } from './lib/iconAuto';
+import { IconAutofps } from './lib/iconAutofps';
+import { IconAutorenew } from './lib/iconAutorenew';
+import { IconAv } from './lib/iconAv';
+import { IconBaby } from './lib/iconBaby';
+import { IconBack } from './lib/iconBack';
+import { IconBackpack } from './lib/iconBackpack';
+import { IconBackspace } from './lib/iconBackspace';
+import { IconBackup } from './lib/iconBackup';
+import { IconBadge } from './lib/iconBadge';
+import { IconBakery } from './lib/iconBakery';
+import { IconBalance } from './lib/iconBalance';
+import { IconBalcony } from './lib/iconBalcony';
+import { IconBallot } from './lib/iconBallot';
+import { IconBar } from './lib/iconBar';
+import { IconBarcode } from './lib/iconBarcode';
+import { IconBatch } from './lib/iconBatch';
+import { IconBathroom } from './lib/iconBathroom';
+import { IconBathtub } from './lib/iconBathtub';
+import { IconBattery } from './lib/iconBattery';
+import { IconBeach } from './lib/iconBeach';
+import { IconBed } from './lib/iconBed';
+import { IconBedroom } from './lib/iconBedroom';
+import { IconBedtime } from './lib/iconBedtime';
+import { IconBeenhere } from './lib/iconBeenhere';
+import { IconBento } from './lib/iconBento';
+import { IconBike } from './lib/iconBike';
+import { IconBiotech } from './lib/iconBiotech';
+import { IconBlender } from './lib/iconBlender';
+import { IconBlind } from './lib/iconBlind';
+import { IconBlinds } from './lib/iconBlinds';
+import { IconBlock } from './lib/iconBlock';
+import { IconBloodtype } from './lib/iconBloodtype';
+import { IconBluetooth } from './lib/iconBluetooth';
+import { IconBlur } from './lib/iconBlur';
+import { IconBolt } from './lib/iconBolt';
+import { IconBook } from './lib/iconBook';
+import { IconBookmark } from './lib/iconBookmark';
+import { IconBookmarks } from './lib/iconBookmarks';
+import { IconBorder } from './lib/iconBorder';
+import { IconBoy } from './lib/iconBoy';
+import { IconBranding } from './lib/iconBranding';
+import { IconBreakfast } from './lib/iconBreakfast';
+import { IconBrightness } from './lib/iconBrightness';
+import { IconBroadcast } from './lib/iconBroadcast';
+import { IconBroken } from './lib/iconBroken';
+import { IconBrowse } from './lib/iconBrowse';
+import { IconBrowser } from './lib/iconBrowser';
+import { IconBrunch } from './lib/iconBrunch';
+import { IconBrush } from './lib/iconBrush';
+import { IconBubble } from './lib/iconBubble';
+import { IconBug } from './lib/iconBug';
+import { IconBuild } from './lib/iconBuild';
+import { IconBungalow } from './lib/iconBungalow';
+import { IconBurst } from './lib/iconBurst';
+import { IconBus } from './lib/iconBus';
+import { IconBusiness } from './lib/iconBusiness';
+import { IconCabin } from './lib/iconCabin';
+import { IconCable } from './lib/iconCable';
+import { IconCached } from './lib/iconCached';
+import { IconCake } from './lib/iconCake';
+import { IconCalculate } from './lib/iconCalculate';
+import { IconCalendar } from './lib/iconCalendar';
+import { IconCall } from './lib/iconCall';
+import { IconCamera } from './lib/iconCamera';
+import { IconCameraswitch } from './lib/iconCameraswitch';
+import { IconCampaign } from './lib/iconCampaign';
+import { IconCancel } from './lib/iconCancel';
+import { IconCandlestick } from './lib/iconCandlestick';
+import { IconCar } from './lib/iconCar';
+import { IconCard } from './lib/iconCard';
+import { IconCarpenter } from './lib/iconCarpenter';
+import { IconCases } from './lib/iconCases';
+import { IconCasino } from './lib/iconCasino';
+import { IconCast } from './lib/iconCast';
+import { IconCastle } from './lib/iconCastle';
+import { IconCatching } from './lib/iconCatching';
+import { IconCategory } from './lib/iconCategory';
+import { IconCelebration } from './lib/iconCelebration';
+import { IconCell } from './lib/iconCell';
+import { IconCenter } from './lib/iconCenter';
+import { IconChair } from './lib/iconChair';
+import { IconChalet } from './lib/iconChalet';
+import { IconChange } from './lib/iconChange';
+import { IconCharging } from './lib/iconCharging';
+import { IconChat } from './lib/iconChat';
+import { IconCheck } from './lib/iconCheck';
+import { IconChecklist } from './lib/iconChecklist';
+import { IconCheckroom } from './lib/iconCheckroom';
+import { IconChevron } from './lib/iconChevron';
+import { IconChild } from './lib/iconChild';
+import { IconChrome } from './lib/iconChrome';
+import { IconChurch } from './lib/iconChurch';
+import { IconCircle } from './lib/iconCircle';
+import { IconClass } from './lib/iconClass';
+import { IconClean } from './lib/iconClean';
+import { IconCleaning } from './lib/iconCleaning';
+import { IconClear } from './lib/iconClear';
+import { IconClose } from './lib/iconClose';
+import { IconClosed } from './lib/iconClosed';
+import { IconCloud } from './lib/iconCloud';
+import { IconCloudy } from './lib/iconCloudy';
+import { IconCo } from './lib/iconCo';
+import { IconCo2 } from './lib/iconCo2';
+import { IconCode } from './lib/iconCode';
+import { IconCoffee } from './lib/iconCoffee';
+import { IconCollections } from './lib/iconCollections';
+import { IconColor } from './lib/iconColor';
+import { IconColorize } from './lib/iconColorize';
+import { IconComment } from './lib/iconComment';
+import { IconComments } from './lib/iconComments';
+import { IconCommit } from './lib/iconCommit';
+import { IconCommute } from './lib/iconCommute';
+import { IconCompare } from './lib/iconCompare';
+import { IconCompass } from './lib/iconCompass';
+import { IconCompost } from './lib/iconCompost';
+import { IconCompress } from './lib/iconCompress';
+import { IconComputer } from './lib/iconComputer';
+import { IconConfirmation } from './lib/iconConfirmation';
+import { IconConnect } from './lib/iconConnect';
+import { IconConnected } from './lib/iconConnected';
+import { IconConnecting } from './lib/iconConnecting';
+import { IconConstruction } from './lib/iconConstruction';
+import { IconContact } from './lib/iconContact';
+import { IconContactless } from './lib/iconContactless';
+import { IconContacts } from './lib/iconContacts';
+import { IconContent } from './lib/iconContent';
+import { IconContrast } from './lib/iconContrast';
+import { IconControl } from './lib/iconControl';
+import { IconConveyor } from './lib/iconConveyor';
+import { IconCookie } from './lib/iconCookie';
+import { IconCopy } from './lib/iconCopy';
+import { IconCopyright } from './lib/iconCopyright';
+import { IconCoronavirus } from './lib/iconCoronavirus';
+import { IconCorporate } from './lib/iconCorporate';
+import { IconCottage } from './lib/iconCottage';
+import { IconCountertops } from './lib/iconCountertops';
+import { IconCreate } from './lib/iconCreate';
+import { IconCredit } from './lib/iconCredit';
+import { IconCrib } from './lib/iconCrib';
+import { IconCrisis } from './lib/iconCrisis';
+import { IconCrop } from './lib/iconCrop';
+import { IconCrown } from './lib/iconCrown';
+import { IconCruelty } from './lib/iconCruelty';
+import { IconCss } from './lib/iconCss';
+import { IconCurrency } from './lib/iconCurrency';
+import { IconCurtains } from './lib/iconCurtains';
+import { IconCyclone } from './lib/iconCyclone';
+import { IconDangerous } from './lib/iconDangerous';
+import { IconDark } from './lib/iconDark';
+import { IconDashboard } from './lib/iconDashboard';
+import { IconData } from './lib/iconData';
+import { IconDataset } from './lib/iconDataset';
+import { IconDate } from './lib/iconDate';
+import { IconDeblur } from './lib/iconDeblur';
+import { IconDeck } from './lib/iconDeck';
+import { IconDehaze } from './lib/iconDehaze';
+import { IconDelete } from './lib/iconDelete';
+import { IconDelivery } from './lib/iconDelivery';
+import { IconDensity } from './lib/iconDensity';
+import { IconDeparture } from './lib/iconDeparture';
+import { IconDescription } from './lib/iconDescription';
+import { IconDeselect } from './lib/iconDeselect';
+import { IconDesign } from './lib/iconDesign';
+import { IconDesk } from './lib/iconDesk';
+import { IconDesktop } from './lib/iconDesktop';
+import { IconDetails } from './lib/iconDetails';
+import { IconDeveloper } from './lib/iconDeveloper';
+import { IconDevice } from './lib/iconDevice';
+import { IconDevices } from './lib/iconDevices';
+import { IconDew } from './lib/iconDew';
+import { IconDialer } from './lib/iconDialer';
+import { IconDialpad } from './lib/iconDialpad';
+import { IconDiamond } from './lib/iconDiamond';
+import { IconDifference } from './lib/iconDifference';
+import { IconDining } from './lib/iconDining';
+import { IconDinner } from './lib/iconDinner';
+import { IconDirections } from './lib/iconDirections';
+import { IconDirty } from './lib/iconDirty';
+import { IconDisabled } from './lib/iconDisabled';
+import { IconDisc } from './lib/iconDisc';
+import { IconDiscount } from './lib/iconDiscount';
+import { IconDislike } from './lib/iconDislike';
+import { IconDisplay } from './lib/iconDisplay';
+import { IconDiversity } from './lib/iconDiversity';
+import { IconDns } from './lib/iconDns';
+import { IconDo } from './lib/iconDo';
+import { IconDock } from './lib/iconDock';
+import { IconDocument } from './lib/iconDocument';
+import { IconDomain } from './lib/iconDomain';
+import { IconDone } from './lib/iconDone';
+import { IconDonut } from './lib/iconDonut';
+import { IconDoor } from './lib/iconDoor';
+import { IconDoorbell } from './lib/iconDoorbell';
+import { IconDouble } from './lib/iconDouble';
+import { IconDownhill } from './lib/iconDownhill';
+import { IconDownload } from './lib/iconDownload';
+import { IconDownloading } from './lib/iconDownloading';
+import { IconDrafts } from './lib/iconDrafts';
+import { IconDrag } from './lib/iconDrag';
+import { IconDraw } from './lib/iconDraw';
+import { IconDrive } from './lib/iconDrive';
+import { IconDry } from './lib/iconDry';
+import { IconDuo } from './lib/iconDuo';
+import { IconDvr } from './lib/iconDvr';
+import { IconDynamic } from './lib/iconDynamic';
+import { IconE } from './lib/iconE';
+import { IconEarbuds } from './lib/iconEarbuds';
+import { IconEast } from './lib/iconEast';
+import { IconEdgesensor } from './lib/iconEdgesensor';
+import { IconEdit } from './lib/IconEdit';
+import { IconEgg } from './lib/iconEgg';
+import { IconEject } from './lib/iconEject';
+import { IconElderly } from './lib/iconElderly';
+import { IconElectric } from './lib/iconElectric';
+import { IconElectrical } from './lib/iconElectrical';
+import { IconElevator } from './lib/iconElevator';
+import { IconEmail } from './lib/iconEmail';
+import { IconEmergency } from './lib/iconEmergency';
+import { IconEmoji } from './lib/iconEmoji';
+import { IconEmpty } from './lib/iconEmpty';
+import { IconEnergy } from './lib/iconEnergy';
+import { IconEngineering } from './lib/iconEngineering';
+import { IconEnhanced } from './lib/iconEnhanced';
+import { IconEqualizer } from './lib/iconEqualizer';
+import { IconError } from './lib/iconError';
+import { IconEscalator } from './lib/iconEscalator';
+import { IconEuro } from './lib/iconEuro';
+import { IconEv } from './lib/iconEv';
+import { IconEvent } from './lib/iconEvent';
+import { IconExit } from './lib/iconExit';
+import { IconExpand } from './lib/iconExpand';
+import { IconExplicit } from './lib/iconExplicit';
+import { IconExplore } from './lib/iconExplore';
+import { IconExposure } from './lib/iconExposure';
+import { IconExtension } from './lib/iconExtension';
+import { IconFace } from './lib/iconFace';
+import { IconFact } from './lib/iconFact';
+import { IconFactory } from './lib/iconFactory';
+import { IconFamily } from './lib/iconFamily';
+import { IconFast } from './lib/iconFast';
+import { IconFastfood } from './lib/iconFastfood';
+import { IconFavorite } from './lib/iconFavorite';
+import { IconFax } from './lib/iconFax';
+import { IconFeatured } from './lib/iconFeatured';
+import { IconFeed } from './lib/iconFeed';
+import { IconFeedback } from './lib/iconFeedback';
+import { IconFemale } from './lib/iconFemale';
+import { IconFence } from './lib/iconFence';
+import { IconFestival } from './lib/iconFestival';
+import { IconFiber } from './lib/iconFiber';
+import { IconFile } from './lib/iconFile';
+import { IconFilter } from './lib/iconFilter';
+import { IconFind } from './lib/iconFind';
+import { IconFingerprint } from './lib/iconFingerprint';
+import { IconFire } from './lib/iconFire';
+import { IconFireplace } from './lib/iconFireplace';
+import { IconFirst } from './lib/iconFirst';
+import { IconFit } from './lib/iconFit';
+import { IconFitbit } from './lib/iconFitbit';
+import { IconFitness } from './lib/iconFitness';
+import { IconFlag } from './lib/iconFlag';
+import { IconFlaky } from './lib/iconFlaky';
+import { IconFlare } from './lib/iconFlare';
+import { IconFlash } from './lib/iconFlash';
+import { IconFlashlight } from './lib/iconFlashlight';
+import { IconFlatware } from './lib/iconFlatware';
+import { IconFlight } from './lib/iconFlight';
+import { IconFlip } from './lib/iconFlip';
+import { IconFlood } from './lib/iconFlood';
+import { IconFluorescent } from './lib/iconFluorescent';
+import { IconFlutter } from './lib/iconFlutter';
+import { IconFmd } from './lib/iconFmd';
+import { IconFoggy } from './lib/iconFoggy';
+import { IconFolder } from './lib/iconFolder';
+import { IconFollow } from './lib/iconFollow';
+import { IconFont } from './lib/iconFont';
+import { IconFood } from './lib/iconFood';
+import { IconForest } from './lib/iconForest';
+import { IconFork } from './lib/iconFork';
+import { IconForklift } from './lib/iconForklift';
+import { IconFormat } from './lib/iconFormat';
+import { IconFort } from './lib/iconFort';
+import { IconForum } from './lib/iconForum';
+import { IconForward } from './lib/iconForward';
+import { IconFoundation } from './lib/iconFoundation';
+import { IconFree } from './lib/iconFree';
+import { IconFront } from './lib/iconFront';
+import { IconFullscreen } from './lib/iconFullscreen';
+import { IconFunctions } from './lib/iconFunctions';
+import { IconG } from './lib/iconG';
+import { IconGamepad } from './lib/iconGamepad';
+import { IconGames } from './lib/iconGames';
+import { IconGarage } from './lib/iconGarage';
+import { IconGas } from './lib/iconGas';
+import { IconGavel } from './lib/iconGavel';
+import { IconGenerating } from './lib/iconGenerating';
+import { IconGesture } from './lib/iconGesture';
+import { IconGet } from './lib/iconGet';
+import { IconGif } from './lib/iconGif';
+import { IconGirl } from './lib/iconGirl';
+import { IconGite } from './lib/iconGite';
+import { IconGolf } from './lib/iconGolf';
+import { IconGpp } from './lib/iconGpp';
+import { IconGps } from './lib/iconGps';
+import { IconGrade } from './lib/iconGrade';
+import { IconGradient } from './lib/iconGradient';
+import { IconGrading } from './lib/iconGrading';
+import { IconGrain } from './lib/iconGrain';
+import { IconGraphic } from './lib/iconGraphic';
+import { IconGrass } from './lib/iconGrass';
+import { IconGrid } from './lib/iconGrid';
+import { IconGridTest } from './lib/iconGridTest';
+import { IconGroup } from './lib/iconGroup';
+import { IconGroups } from './lib/iconGroups';
+import { IconH } from './lib/iconH';
+import { IconHail } from './lib/iconHail';
+import { IconHandshake } from './lib/iconHandshake';
+import { IconHandyman } from './lib/iconHandyman';
+import { IconHardware } from './lib/iconHardware';
+import { IconHd } from './lib/iconHd';
+import { IconHdr } from './lib/iconHdr';
+import { IconHeadphones } from './lib/iconHeadphones';
+import { IconHeadset } from './lib/iconHeadset';
+import { IconHealing } from './lib/iconHealing';
+import { IconHealth } from './lib/iconHealth';
+import { IconHearing } from './lib/iconHearing';
+import { IconHeart } from './lib/iconHeart';
+import { IconHeat } from './lib/iconHeat';
+import { IconHeight } from './lib/iconHeight';
+import { IconHelp } from './lib/iconHelp';
+import { IconHevc } from './lib/iconHevc';
+import { IconHexagon } from './lib/iconHexagon';
+import { IconHide } from './lib/iconHide';
+import { IconHigh } from './lib/iconHigh';
+import { IconHighlight } from './lib/iconHighlight';
+import { IconHiking } from './lib/iconHiking';
+import { IconHistory } from './lib/iconHistory';
+import { IconHive } from './lib/iconHive';
+import { IconHls } from './lib/iconHls';
+import { IconHoliday } from './lib/iconHoliday';
+import { IconHome } from './lib/iconHome';
+import { IconHorizontal } from './lib/iconHorizontal';
+import { IconHot } from './lib/iconHot';
+import { IconHotel } from './lib/iconHotel';
+import { IconHourglass } from './lib/iconHourglass';
+import { IconHouse } from './lib/iconHouse';
+import { IconHouseboat } from './lib/iconHouseboat';
+import { IconHow } from './lib/iconHow';
+import { IconHtml } from './lib/iconHtml';
+import { IconHttp } from './lib/iconHttp';
+import { IconHttps } from './lib/iconHttps';
+import { IconHub } from './lib/iconHub';
+import { IconHvac } from './lib/iconHvac';
+import { IconIce } from './lib/iconIce';
+import { IconIcecream } from './lib/iconIcecream';
+import { IconImage } from './lib/iconImage';
+import { IconImagesearch } from './lib/iconImagesearch';
+import { IconImport } from './lib/iconImport';
+import { IconImportant } from './lib/iconImportant';
+import { IconInbox } from './lib/iconInbox';
+import { IconIncomplete } from './lib/iconIncomplete';
+import { IconIndeterminate } from './lib/iconIndeterminate';
+import { IconInfo } from './lib/iconInfo';
+import { IconInput } from './lib/iconInput';
+import { IconInsert } from './lib/iconInsert';
+import { IconInsights } from './lib/iconInsights';
+import { IconInstall } from './lib/iconInstall';
+import { IconIntegration } from './lib/iconIntegration';
+import { IconInterests } from './lib/iconInterests';
+import { IconInterpreter } from './lib/iconInterpreter';
+import { IconInventory } from './lib/iconInventory';
+import { IconInvert } from './lib/iconInvert';
+import { IconIos } from './lib/iconIos';
+import { IconIron } from './lib/iconIron';
+import { IconIso } from './lib/iconIso';
+import { IconJavascript } from './lib/iconJavascript';
+import { IconJoin } from './lib/iconJoin';
+import { IconKayaking } from './lib/iconKayaking';
+import { IconKebab } from './lib/iconKebab';
+import { IconKey } from './lib/iconKey';
+import { IconKeyboard } from './lib/iconKeyboard';
+import { IconKing } from './lib/iconKing';
+import { IconKitchen } from './lib/iconKitchen';
+import { IconKitesurfing } from './lib/iconKitesurfing';
+import { IconLabel } from './lib/iconLabel';
+import { IconLan } from './lib/iconLan';
+import { IconLandscape } from './lib/iconLandscape';
+import { IconLandslide } from './lib/iconLandslide';
+import { IconLanguage } from './lib/iconLanguage';
+import { IconLaptop } from './lib/iconLaptop';
+import { IconLast } from './lib/iconLast';
+import { IconLaunch } from './lib/iconLaunch';
+import { IconLayers } from './lib/iconLayers';
+import { IconLeaderboard } from './lib/iconLeaderboard';
+import { IconLeak } from './lib/iconLeak';
+import { IconLegend } from './lib/iconLegend';
+import { IconLens } from './lib/iconLens';
+import { IconLibrary } from './lib/iconLibrary';
+import { IconLight } from './lib/iconLight';
+import { IconLightbulb } from './lib/iconLightbulb';
+import { IconLike } from './lib/iconLike';
+import { IconLine } from './lib/iconLine';
+import { IconLinear } from './lib/iconLinear';
+import { IconLink } from './lib/iconLink';
+import { IconLinked } from './lib/iconLinked';
+import { IconLiquor } from './lib/iconLiquor';
+import { IconList } from './lib/iconList';
+import { IconLive } from './lib/iconLive';
+import { IconLiving } from './lib/iconLiving';
+import { IconLocal } from './lib/iconLocal';
+import { IconLocation } from './lib/iconLocation';
+import { IconLock } from './lib/iconLock';
+import { IconLogin } from './lib/iconLogin';
+import { IconLogo } from './lib/iconLogo';
+import { IconLogout } from './lib/iconLogout';
+import { IconLooks } from './lib/iconLooks';
+import { IconLoop } from './lib/iconLoop';
+import { IconLoupe } from './lib/iconLoupe';
+import { IconLow } from './lib/iconLow';
+import { IconLoyalty } from './lib/iconLoyalty';
+import { IconLte } from './lib/iconLte';
+import { IconLuggage } from './lib/iconLuggage';
+import { IconLunch } from './lib/iconLunch';
+import { IconLyrics } from './lib/iconLyrics';
+import { IconMacro } from './lib/iconMacro';
+import { IconMail } from './lib/iconMail';
+import { IconMale } from './lib/iconMale';
+import { IconMan } from './lib/iconMan';
+import { IconManage } from './lib/iconManage';
+import { IconMap } from './lib/iconMap';
+import { IconMaps } from './lib/iconMaps';
+import { IconMargin } from './lib/iconMargin';
+import { IconMark } from './lib/iconMark';
+import { IconMarkunread } from './lib/iconMarkunread';
+import { IconMasks } from './lib/iconMasks';
+import { IconMaximize } from './lib/iconMaximize';
+import { IconMedia } from './lib/iconMedia';
+import { IconMediation } from './lib/iconMediation';
+import { IconMedical } from './lib/iconMedical';
+import { IconMedication } from './lib/iconMedication';
+import { IconMeeting } from './lib/iconMeeting';
+import { IconMemory } from './lib/iconMemory';
+import { IconMenu } from './lib/iconMenu';
+import { IconMerge } from './lib/iconMerge';
+import { IconMessage } from './lib/iconMessage';
+import { IconMic } from './lib/iconMic';
+import { IconMicrowave } from './lib/iconMicrowave';
+import { IconMilitary } from './lib/iconMilitary';
+import { IconMinimize } from './lib/iconMinimize';
+import { IconMinor } from './lib/iconMinor';
+import { IconMiscellaneous } from './lib/iconMiscellaneous';
+import { IconMissed } from './lib/iconMissed';
+import { IconMms } from './lib/iconMms';
+import { IconMobile } from './lib/iconMobile';
+import { IconMobiledata } from './lib/iconMobiledata';
+import { IconMode } from './lib/iconMode';
+import { IconModel } from './lib/iconModel';
+import { IconMonetization } from './lib/iconMonetization';
+import { IconMoney } from './lib/iconMoney';
+import { IconMonitor } from './lib/iconMonitor';
+import { IconMonochrome } from './lib/iconMonochrome';
+import { IconMood } from './lib/iconMood';
+import { IconMoped } from './lib/iconMoped';
+import { IconMore } from './lib/iconMore';
+import { IconMosque } from './lib/iconMosque';
+import { IconMotion } from './lib/iconMotion';
+import { IconMouse } from './lib/iconMouse';
+import { IconMove } from './lib/iconMove';
+import { IconMovie } from './lib/iconMovie';
+import { IconMoving } from './lib/iconMoving';
+import { IconMp } from './lib/iconMp';
+import { IconMultiline } from './lib/iconMultiline';
+import { IconMultiple } from './lib/iconMultiple';
+import { IconMuseum } from './lib/iconMuseum';
+import { IconMusic } from './lib/iconMusic';
+import { IconMy } from './lib/iconMy';
+import { IconNat } from './lib/iconNat';
+import { IconNature } from './lib/iconNature';
+import { IconNavigate } from './lib/iconNavigate';
+import { IconNavigation } from './lib/iconNavigation';
+import { IconNear } from './lib/iconNear';
+import { IconNearby } from './lib/iconNearby';
+import { IconNest } from './lib/iconNest';
+import { IconNetwork } from './lib/iconNetwork';
+import { IconNew } from './lib/iconNew';
+import { IconNewspaper } from './lib/iconNewspaper';
+import { IconNext } from './lib/iconNext';
+import { IconNfc } from './lib/iconNfc';
+import { IconNight } from './lib/iconNight';
+import { IconNightlife } from './lib/iconNightlife';
+import { IconNightlight } from './lib/iconNightlight';
+import { IconNights } from './lib/iconNights';
+import { IconNo } from './lib/iconNo';
+import { IconNoise } from './lib/iconNoise';
+import { IconNordic } from './lib/iconNordic';
+import { IconNorth } from './lib/iconNorth';
+import { IconNot } from './lib/iconNot';
+import { IconNote } from './lib/iconNote';
+import { IconNotes } from './lib/iconNotes';
+import { IconNotification } from './lib/iconNotification';
+import { IconNotifications } from './lib/iconNotifications';
+import { IconNumbers } from './lib/iconNumbers';
+import { IconOffline } from './lib/iconOffline';
+import { IconOil } from './lib/iconOil';
+import { IconOn } from './lib/iconOn';
+import { IconOndemand } from './lib/iconOndemand';
+import { IconOnline } from './lib/iconOnline';
+import { IconOpacity } from './lib/iconOpacity';
+import { IconOpen } from './lib/iconOpen';
+import { IconOther } from './lib/iconOther';
+import { IconOutbound } from './lib/iconOutbound';
+import { IconOutbox } from './lib/iconOutbox';
+import { IconOutdoor } from './lib/iconOutdoor';
+import { IconOutgoing } from './lib/iconOutgoing';
+import { IconOutlet } from './lib/iconOutlet';
+import { IconOutlined } from './lib/iconOutlined';
+import { IconOutput } from './lib/iconOutput';
+import { IconPadding } from './lib/iconPadding';
+import { IconPages } from './lib/iconPages';
+import { IconPageview } from './lib/iconPageview';
+import { IconPaid } from './lib/iconPaid';
+import { IconPalette } from './lib/iconPalette';
+import { IconPallet } from './lib/iconPallet';
+import { IconPan } from './lib/iconPan';
+import { IconPanorama } from './lib/iconPanorama';
+import { IconParagliding } from './lib/iconParagliding';
+import { IconPark } from './lib/iconPark';
+import { IconParty } from './lib/iconParty';
+import { IconPassword } from './lib/iconPassword';
+import { IconPattern } from './lib/iconPattern';
+import { IconPause } from './lib/iconPause';
+import { IconPayment } from './lib/iconPayment';
+import { IconPayments } from './lib/iconPayments';
+import { IconPedal } from './lib/iconPedal';
+import { IconPending } from './lib/iconPending';
+import { IconPentagon } from './lib/iconPentagon';
+import { IconPeople } from './lib/iconPeople';
+import { IconPercent } from './lib/iconPercent';
+import { IconPerm } from './lib/iconPerm';
+import { IconPerson } from './lib/iconPerson';
+import { IconPersonal } from './lib/iconPersonal';
+import { IconPest } from './lib/iconPest';
+import { IconPets } from './lib/iconPets';
+import { IconPhishing } from './lib/iconPhishing';
+import { IconPhone } from './lib/iconPhone';
+import { IconPhonelink } from './lib/iconPhonelink';
+import { IconPhoto } from './lib/iconPhoto';
+import { IconPhp } from './lib/iconPhp';
+import { IconPiano } from './lib/iconPiano';
+import { IconPicture } from './lib/iconPicture';
+import { IconPie } from './lib/iconPie';
+import { IconPin } from './lib/iconPin';
+import { IconPinch } from './lib/iconPinch';
+import { IconPivot } from './lib/iconPivot';
+import { IconPix } from './lib/iconPix';
+import { IconPlace } from './lib/iconPlace';
+import { IconPlagiarism } from './lib/iconPlagiarism';
+import { IconPlay } from './lib/iconPlay';
+import { IconPlaylist } from './lib/iconPlaylist';
+import { IconPlumbing } from './lib/iconPlumbing';
+import { IconPlus } from './lib/iconPlus';
+import { IconPodcasts } from './lib/iconPodcasts';
+import { IconPoint } from './lib/iconPoint';
+import { IconPolicy } from './lib/iconPolicy';
+import { IconPoll } from './lib/iconPoll';
+import { IconPolyline } from './lib/iconPolyline';
+import { IconPool } from './lib/iconPool';
+import { IconPortable } from './lib/iconPortable';
+import { IconPortrait } from './lib/iconPortrait';
+import { IconPost } from './lib/iconPost';
+import { IconPower } from './lib/iconPower';
+import { IconPrecision } from './lib/iconPrecision';
+import { IconPregnant } from './lib/iconPregnant';
+import { IconPresent } from './lib/iconPresent';
+import { IconPreview } from './lib/iconPreview';
+import { IconPrice } from './lib/iconPrice';
+import { IconPrint } from './lib/iconPrint';
+import { IconPriority } from './lib/iconPriority';
+import { IconPrivacy } from './lib/iconPrivacy';
+import { IconPrivate } from './lib/iconPrivate';
+import { IconProduction } from './lib/iconProduction';
+import { IconPropane } from './lib/iconPropane';
+import { IconPsychology } from './lib/iconPsychology';
+import { IconPublic } from './lib/iconPublic';
+import { IconPublish } from './lib/iconPublish';
+import { IconPublished } from './lib/iconPublished';
+import { IconPunch } from './lib/iconPunch';
+import { IconPush } from './lib/iconPush';
+import { IconQr } from './lib/iconQr';
+import { IconQuery } from './lib/iconQuery';
+import { IconQuestion } from './lib/iconQuestion';
+import { IconQueue } from './lib/iconQueue';
+import { IconQuickreply } from './lib/iconQuickreply';
+import { IconQuiz } from './lib/iconQuiz';
+import { IconR } from './lib/iconR';
+import { IconRadar } from './lib/iconRadar';
+import { IconRadio } from './lib/iconRadio';
+import { IconRailway } from './lib/iconRailway';
+import { IconRamen } from './lib/iconRamen';
+import { IconRamp } from './lib/iconRamp';
+import { IconRate } from './lib/iconRate';
+import { IconRaw } from './lib/iconRaw';
+import { IconRead } from './lib/iconRead';
+import { IconReal } from './lib/iconReal';
+import { IconRebase } from './lib/iconRebase';
+import { IconReceipt } from './lib/iconReceipt';
+import { IconRecent } from './lib/iconRecent';
+import { IconRecommend } from './lib/iconRecommend';
+import { IconRecord } from './lib/iconRecord';
+import { IconRectangle } from './lib/iconRectangle';
+import { IconRecycling } from './lib/iconRecycling';
+import { IconRedeem } from './lib/iconRedeem';
+import { IconRedo } from './lib/iconRedo';
+import { IconReduce } from './lib/iconReduce';
+import { IconRefresh } from './lib/iconRefresh';
+import { IconRemember } from './lib/iconRemember';
+import { IconRemove } from './lib/iconRemove';
+import { IconReorder } from './lib/iconReorder';
+import { IconRepartition } from './lib/iconRepartition';
+import { IconRepeat } from './lib/iconRepeat';
+import { IconReplay } from './lib/iconReplay';
+import { IconReply } from './lib/iconReply';
+import { IconReport } from './lib/iconReport';
+import { IconReported } from './lib/iconReported';
+import { IconRequest } from './lib/iconRequest';
+import { IconReset } from './lib/iconReset';
+import { IconRestart } from './lib/iconRestart';
+import { IconRestaurant } from './lib/iconRestaurant';
+import { IconRestore } from './lib/iconRestore';
+import { IconReview } from './lib/iconReview';
+import { IconReviews } from './lib/iconReviews';
+import { IconRice } from './lib/iconRice';
+import { IconRing } from './lib/iconRing';
+import { IconRocket } from './lib/iconRocket';
+import { IconRoller } from './lib/iconRoller';
+import { IconRoofing } from './lib/iconRoofing';
+import { IconRoom } from './lib/iconRoom';
+import { IconRotate } from './lib/iconRotate';
+import { IconRoundabout } from './lib/iconRoundabout';
+import { IconRounded } from './lib/iconRounded';
+import { IconRoute } from './lib/iconRoute';
+import { IconRouter } from './lib/iconRouter';
+import { IconRowing } from './lib/iconRowing';
+import { IconRss } from './lib/iconRss';
+import { IconRsvp } from './lib/iconRsvp';
+import { IconRtt } from './lib/iconRtt';
+import { IconRule } from './lib/iconRule';
+import { IconRun } from './lib/iconRun';
+import { IconRunning } from './lib/iconRunning';
+import { IconRv } from './lib/iconRv';
+import { IconSafety } from './lib/iconSafety';
+import { IconSailing } from './lib/iconSailing';
+import { IconSanitizer } from './lib/iconSanitizer';
+import { IconSatellite } from './lib/iconSatellite';
+import { IconSave } from './lib/iconSave';
+import { IconSaved } from './lib/iconSaved';
+import { IconSavings } from './lib/iconSavings';
+import { IconScale } from './lib/iconScale';
+import { IconScanner } from './lib/iconScanner';
+import { IconScatter } from './lib/iconScatter';
+import { IconSchedule } from './lib/iconSchedule';
+import { IconSchema } from './lib/iconSchema';
+import { IconSchool } from './lib/iconSchool';
+import { IconScience } from './lib/iconScience';
+import { IconScore } from './lib/iconScore';
+import { IconScoreboard } from './lib/iconScoreboard';
+import { IconScreen } from './lib/iconScreen';
+import { IconScreenshot } from './lib/iconScreenshot';
+import { IconScuba } from './lib/iconScuba';
+import { IconSd } from './lib/iconSd';
+import { IconSearch } from './lib/iconSearch';
+import { IconSecurity } from './lib/iconSecurity';
+import { IconSegment } from './lib/iconSegment';
+import { IconSelect } from './lib/iconSelect';
+import { IconSelf } from './lib/iconSelf';
+import { IconSell } from './lib/iconSell';
+import { IconSend } from './lib/iconSend';
+import { IconSensor } from './lib/iconSensor';
+import { IconSensors } from './lib/iconSensors';
+import { IconSentiment } from './lib/iconSentiment';
+import { IconSet } from './lib/iconSet';
+import { IconSettings } from './lib/iconSettings';
+import { IconSevere } from './lib/iconSevere';
+import { IconShape } from './lib/iconShape';
+import { IconShare } from './lib/iconShare';
+import { IconShelves } from './lib/iconShelves';
+import { IconShield } from './lib/iconShield';
+import { IconShop } from './lib/iconShop';
+import { IconShopping } from './lib/iconShopping';
+import { IconShort } from './lib/iconShort';
+import { IconShortcut } from './lib/iconShortcut';
+import { IconShow } from './lib/iconShow';
+import { IconShower } from './lib/iconShower';
+import { IconShuffle } from './lib/iconShuffle';
+import { IconShutter } from './lib/iconShutter';
+import { IconSick } from './lib/iconSick';
+import { IconSign } from './lib/iconSign';
+import { IconSignal } from './lib/iconSignal';
+import { IconSignpost } from './lib/iconSignpost';
+import { IconSim } from './lib/iconSim';
+import { IconSingle } from './lib/iconSingle';
+import { IconSip } from './lib/iconSip';
+import { IconSkateboarding } from './lib/iconSkateboarding';
+import { IconSkip } from './lib/iconSkip';
+import { IconSledding } from './lib/iconSledding';
+import { IconSlideshow } from './lib/iconSlideshow';
+import { IconSlow } from './lib/iconSlow';
+import { IconSmart } from './lib/iconSmart';
+import { IconSmartphone } from './lib/iconSmartphone';
+import { IconSmoke } from './lib/iconSmoke';
+import { IconSmoking } from './lib/iconSmoking';
+import { IconSms } from './lib/iconSms';
+import { IconSnippet } from './lib/iconSnippet';
+import { IconSnooze } from './lib/iconSnooze';
+import { IconSnowboarding } from './lib/iconSnowboarding';
+import { IconSnowing } from './lib/iconSnowing';
+import { IconSnowmobile } from './lib/iconSnowmobile';
+import { IconSnowshoeing } from './lib/iconSnowshoeing';
+import { IconSoap } from './lib/iconSoap';
+import { IconSocial } from './lib/iconSocial';
+import { IconSolar } from './lib/iconSolar';
+import { IconSort } from './lib/iconSort';
+import { IconSos } from './lib/iconSos';
+import { IconSoup } from './lib/iconSoup';
+import { IconSource } from './lib/iconSource';
+import { IconSouth } from './lib/iconSouth';
+import { IconSpa } from './lib/iconSpa';
+import { IconSpace } from './lib/iconSpace';
+import { IconSpatial } from './lib/iconSpatial';
+import { IconSpeaker } from './lib/iconSpeaker';
+import { IconSpeed } from './lib/iconSpeed';
+import { IconSpellcheck } from './lib/iconSpellcheck';
+import { IconSplitscreen } from './lib/iconSplitscreen';
+import { IconSpoke } from './lib/iconSpoke';
+import { IconSports } from './lib/iconSports';
+import { IconSquare } from './lib/iconSquare';
+import { IconSsid } from './lib/iconSsid';
+import { IconStacked } from './lib/iconStacked';
+import { IconStadium } from './lib/iconStadium';
+import { IconStairs } from './lib/iconStairs';
+import { IconStar } from './lib/iconStar';
+import { IconStars } from './lib/iconStars';
+import { IconStart } from './lib/iconStart';
+import { IconStay } from './lib/iconStay';
+import { IconSticky } from './lib/iconSticky';
+import { IconStop } from './lib/iconStop';
+import { IconStorage } from './lib/iconStorage';
+import { IconStore } from './lib/iconStore';
+import { IconStorefront } from './lib/iconStorefront';
+import { IconStorm } from './lib/iconStorm';
+import { IconStraight } from './lib/iconStraight';
+import { IconStraighten } from './lib/iconStraighten';
+import { IconStream } from './lib/iconStream';
+import { IconStreetview } from './lib/iconStreetview';
+import { IconStrikethrough } from './lib/iconStrikethrough';
+import { IconStroller } from './lib/iconStroller';
+import { IconStyle } from './lib/iconStyle';
+import { IconSubdirectory } from './lib/iconSubdirectory';
+import { IconSubject } from './lib/iconSubject';
+import { IconSubmit } from './lib/iconSubmit';
+import { IconSubscript } from './lib/iconSubscript';
+import { IconSubscriptions } from './lib/iconSubscriptions';
+import { IconSubtitles } from './lib/iconSubtitles';
+import { IconSubway } from './lib/iconSubway';
+import { IconSummarize } from './lib/iconSummarize';
+import { IconSunny } from './lib/iconSunny';
+import { IconSuperscript } from './lib/iconSuperscript';
+import { IconSupervised } from './lib/iconSupervised';
+import { IconSupervisor } from './lib/iconSupervisor';
+import { IconSupport } from './lib/iconSupport';
+import { IconSurfing } from './lib/iconSurfing';
+import { IconSurround } from './lib/iconSurround';
+import { IconSwap } from './lib/iconSwap';
+import { IconSwipe } from './lib/iconSwipe';
+import { IconSwitch } from './lib/iconSwitch';
+import { IconSynagogue } from './lib/iconSynagogue';
+import { IconSync } from './lib/iconSync';
+import { IconSystem } from './lib/iconSystem';
+import { IconTab } from './lib/iconTab';
+import { IconTable } from './lib/iconTable';
+import { IconTablet } from './lib/iconTablet';
+import { IconTag } from './lib/iconTag';
+import { IconTakeout } from './lib/iconTakeout';
+import { IconTap } from './lib/iconTap';
+import { IconTapas } from './lib/iconTapas';
+import { IconTask } from './lib/iconTask';
+import { IconTaxi } from './lib/iconTaxi';
+import { IconTemple } from './lib/iconTemple';
+import { IconTerminal } from './lib/iconTerminal';
+import { IconTerrain } from './lib/iconTerrain';
+import { IconText } from './lib/iconText';
+import { IconTextsms } from './lib/iconTextsms';
+import { IconTexture } from './lib/iconTexture';
+import { IconTheater } from './lib/iconTheater';
+import { IconTheaters } from './lib/iconTheaters';
+import { IconThermostat } from './lib/iconThermostat';
+import { IconThumb } from './lib/iconThumb';
+import { IconThumbs } from './lib/iconThumbs';
+import { IconThunderstorm } from './lib/iconThunderstorm';
+import { IconTime } from './lib/iconTime';
+import { IconTimelapse } from './lib/iconTimelapse';
+import { IconTimeline } from './lib/iconTimeline';
+import { IconTimer } from './lib/iconTimer';
+import { IconTips } from './lib/iconTips';
+import { IconTire } from './lib/iconTire';
+import { IconTitle } from './lib/iconTitle';
+import { IconToc } from './lib/iconToc';
+import { IconToday } from './lib/iconToday';
+import { IconToggle } from './lib/iconToggle';
+import { IconToken } from './lib/iconToken';
+import { IconToll } from './lib/iconToll';
+import { IconTonality } from './lib/iconTonality';
+import { IconTopic } from './lib/iconTopic';
+import { IconTornado } from './lib/iconTornado';
+import { IconTouch } from './lib/iconTouch';
+import { IconTour } from './lib/iconTour';
+import { IconToys } from './lib/iconToys';
+import { IconTrack } from './lib/iconTrack';
+import { IconTraffic } from './lib/iconTraffic';
+import { IconTrain } from './lib/iconTrain';
+import { IconTram } from './lib/iconTram';
+import { IconTranscribe } from './lib/iconTranscribe';
+import { IconTransfer } from './lib/iconTransfer';
+import { IconTransform } from './lib/iconTransform';
+import { IconTransgender } from './lib/iconTransgender';
+import { IconTransit } from './lib/iconTransit';
+import { IconTranslate } from './lib/iconTranslate';
+import { IconTravel } from './lib/iconTravel';
+import { IconTrending } from './lib/iconTrending';
+import { IconTrip } from './lib/iconTrip';
+import { IconTrolley } from './lib/iconTrolley';
+import { IconTroubleshoot } from './lib/iconTroubleshoot';
+import { IconTry } from './lib/iconTry';
+import { IconTsunami } from './lib/iconTsunami';
+import { IconTty } from './lib/iconTty';
+import { IconTune } from './lib/iconTune';
+import { IconTungsten } from './lib/iconTungsten';
+import { IconTurn } from './lib/iconTurn';
+import { IconTurned } from './lib/iconTurned';
+import { IconTv } from './lib/iconTv';
+import { IconTwo } from './lib/iconTwo';
+import { IconType } from './lib/iconType';
+import { IconU } from './lib/iconU';
+import { IconUmbrella } from './lib/iconUmbrella';
+import { IconUnarchive } from './lib/iconUnarchive';
+import { IconUndo } from './lib/iconUndo';
+import { IconUnfold } from './lib/iconUnfold';
+import { IconUnpublished } from './lib/iconUnpublished';
+import { IconUnsubscribe } from './lib/iconUnsubscribe';
+import { IconUpcoming } from './lib/iconUpcoming';
+import { IconUpdate } from './lib/iconUpdate';
+import { IconUpgrade } from './lib/iconUpgrade';
+import { IconUpload } from './lib/iconUpload';
+import { IconUsb } from './lib/iconUsb';
+import { IconVaccines } from './lib/iconVaccines';
+import { IconVape } from './lib/iconVape';
+import { IconVaping } from './lib/iconVaping';
+import { IconVerified } from './lib/iconVerified';
+import { IconVertical } from './lib/iconVertical';
+import { IconVibration } from './lib/iconVibration';
+import { IconVideo } from './lib/iconVideo';
+import { IconVideocam } from './lib/iconVideocam';
+import { IconVideogame } from './lib/iconVideogame';
+import { IconView } from './lib/iconView';
+import { IconVignette } from './lib/iconVignette';
+import { IconVilla } from './lib/iconVilla';
+import { IconVisibility } from './lib/iconVisibility';
+import { IconVoice } from './lib/iconVoice';
+import { IconVoicemail } from './lib/iconVoicemail';
+import { IconVolcano } from './lib/iconVolcano';
+import { IconVolume } from './lib/iconVolume';
+import { IconVolunteer } from './lib/iconVolunteer';
+import { IconVpn } from './lib/iconVpn';
+import { IconVrpano } from './lib/iconVrpano';
+import { IconWallet } from './lib/iconWallet';
+import { IconWallpaper } from './lib/iconWallpaper';
+import { IconWarehouse } from './lib/iconWarehouse';
+import { IconWarning } from './lib/iconWarning';
+import { IconWash } from './lib/iconWash';
+import { IconWatch } from './lib/iconWatch';
+import { IconWater } from './lib/iconWater';
+import { IconWaterfall } from './lib/iconWaterfall';
+import { IconWaves } from './lib/iconWaves';
+import { IconWaving } from './lib/iconWaving';
+import { IconWb } from './lib/iconWb';
+import { IconWc } from './lib/iconWc';
+import { IconWeb } from './lib/iconWeb';
+import { IconWebhook } from './lib/iconWebhook';
+import { IconWeekend } from './lib/iconWeekend';
+import { IconWest } from './lib/iconWest';
+import { IconWhatshot } from './lib/iconWhatshot';
+import { IconWheelchair } from './lib/iconWheelchair';
+import { IconWhere } from './lib/iconWhere';
+import { IconWidgets } from './lib/iconWidgets';
+import { IconWidth } from './lib/iconWidth';
+import { IconWifi } from './lib/iconWifi';
+import { IconWind } from './lib/iconWind';
+import { IconWindow } from './lib/iconWindow';
+import { IconWine } from './lib/iconWine';
+import { IconWoman } from './lib/iconWoman';
+import { IconWork } from './lib/iconWork';
+import { IconWorkspace } from './lib/iconWorkspace';
+import { IconWorkspaces } from './lib/iconWorkspaces';
+import { IconWrap } from './lib/iconWrap';
+import { IconWrong } from './lib/iconWrong';
+import { IconWysiwyg } from './lib/iconWysiwyg';
+import { IconYard } from './lib/iconYard';
+import { IconYoutube } from './lib/iconYoutube';
+import { IconZoom } from './lib/iconZoom';
+import { IconZoomIn } from './lib/iconZoomIn';
+import { InfoIcon } from './lib/infoIcon';
+import { InstagramIcon } from './lib/instagramIcon';
+import { Ios } from './lib/ios';
+import { LevelIcon } from './lib/levelIcon';
+import { LikeIcon } from './lib/likeIcon';
+import { LinkedinIcon } from './lib/linkedinIcon';
+import { MailAboutUs } from './lib/mailAboutUs';
+import { MediaAboutUs } from './lib/mediaAboutUs';
+import { MenuIcon } from './lib/menuIcon';
+import { MissionIcon } from './lib/missionIcon';
+import { NewStartUpgradePro } from './lib/newStartUpgradePro';
+import { OldFacebookIcon } from './lib/oldFacebookIcon';
+import { OldYoutubeIcon } from './lib/oldYoutubeIcon';
+import { ProPlanSvg } from './lib/proPlanSvg';
+import { RedditIcon } from './lib/redditIcon';
+import { SearchQuestion } from './lib/searchQuestion';
+import { StartIcon } from './lib/startIcon';
+import { StartUpgradeProIcon } from './lib/startUpgradeProIcon';
+import { TargetIcon } from './lib/targetIcon';
+import { ThumbDownIcon } from './lib/thumbDownIcon';
+import { ThumbUpIcon } from './lib/thumbUpIcon';
+import { TwitterIcon } from './lib/twitterIcon';
+import { UsersIcon } from './lib/usersIcon';
+import { VisionIcon } from './lib/visionIcon';
+import { XIcon } from './lib/xIcon';
+import { YoutubeIcon } from './lib/youtubeIcon';
+
+const listIcon = [
+  { name: 'Android', component: Android },
+  { name: 'ArrowLeft', component: ArrowLeft },
+  { name: 'BookMark', component: BookMark },
+  { name: 'CertificateIcon', component: CertificateIcon },
+  { name: 'CheckboxCancelDialog', component: CheckboxCancelDialog },
+  { name: 'CheckboxCheckedIcon', component: CheckboxCheckedIcon },
+  { name: 'ClockIcon', component: ClockIcon },
+  { name: 'CloseIcon', component: CloseIcon },
+  { name: 'CoreValueIcon', component: CoreValueIcon },
+  { name: 'Dots', component: Dots },
+  { name: 'ErrorOutlineIcon', component: ErrorOutlineIcon },
+  { name: 'ExpandMoreIcon', component: ExpandMoreIcon },
+  { name: 'FacebookIcon', component: FacebookIcon },
+  { name: 'FIle', component: FIle },
+  { name: 'GetPro', component: GetPro },
+  { name: 'Icon10k', component: Icon10k },
+  { name: 'Icon10mp', component: Icon10mp },
+  { name: 'Icon11mp', component: Icon11mp },
+  { name: 'Icon12mp', component: Icon12mp },
+  { name: 'Icon13mp', component: Icon13mp },
+  { name: 'Icon14mp', component: Icon14mp },
+  { name: 'Icon15mp', component: Icon15mp },
+  { name: 'Icon16mp', component: Icon16mp },
+  { name: 'Icon17mp', component: Icon17mp },
+  { name: 'Icon18', component: Icon18 },
+  { name: 'Icon18mp', component: Icon18mp },
+  { name: 'Icon19mp', component: Icon19mp },
+  { name: 'Icon1k', component: Icon1k },
+  { name: 'Icon1x', component: Icon1x },
+  { name: 'Icon20mp', component: Icon20mp },
+  { name: 'Icon21mp', component: Icon21mp },
+  { name: 'Icon22mp', component: Icon22mp },
+  { name: 'Icon23mp', component: Icon23mp },
+  { name: 'Icon24mp', component: Icon24mp },
+  { name: 'Icon2k', component: Icon2k },
+  { name: 'Icon2mp', component: Icon2mp },
+  { name: 'Icon30fps', component: Icon30fps },
+  { name: 'Icon360', component: Icon360 },
+  { name: 'Icon3d', component: Icon3d },
+  { name: 'Icon3g', component: Icon3g },
+  { name: 'Icon3k', component: Icon3k },
+  { name: 'Icon3mp', component: Icon3mp },
+  { name: 'Icon3p', component: Icon3p },
+  { name: 'Icon4g', component: Icon4g },
+  { name: 'Icon4k', component: Icon4k },
+  { name: 'Icon4mp', component: Icon4mp },
+  { name: 'Icon5g', component: Icon5g },
+  { name: 'Icon5k', component: Icon5k },
+  { name: 'Icon5mp', component: Icon5mp },
+  { name: 'Icon60fps', component: Icon60fps },
+  { name: 'Icon6k', component: Icon6k },
+  { name: 'Icon6mp', component: Icon6mp },
+  { name: 'Icon7k', component: Icon7k },
+  { name: 'Icon7mp', component: Icon7mp },
+  { name: 'Icon8k', component: Icon8k },
+  { name: 'Icon8mp', component: Icon8mp },
+  { name: 'Icon9k', component: Icon9k },
+  { name: 'Icon9mp', component: Icon9mp },
+  { name: 'IconAbc', component: IconAbc },
+  { name: 'IconAc', component: IconAc },
+  { name: 'IconAccess', component: IconAccess },
+  { name: 'IconAccessibility', component: IconAccessibility },
+  { name: 'IconAccessible', component: IconAccessible },
+  { name: 'IconAccount', component: IconAccount },
+  { name: 'IconAd', component: IconAd },
+  { name: 'IconAdb', component: IconAdb },
+  { name: 'IconAdd', component: IconAdd },
+  { name: 'IconAddchart', component: IconAddchart },
+  { name: 'IconAdf', component: IconAdf },
+  { name: 'IconAdjust', component: IconAdjust },
+  { name: 'IconAdmin', component: IconAdmin },
+  { name: 'IconAds', component: IconAds },
+  { name: 'IconAgriculture', component: IconAgriculture },
+  { name: 'IconAir', component: IconAir },
+  { name: 'IconAirline', component: IconAirline },
+  { name: 'IconAirlines', component: IconAirlines },
+  { name: 'IconAirplane', component: IconAirplane },
+  { name: 'IconAirplanemode', component: IconAirplanemode },
+  { name: 'IconAirplay', component: IconAirplay },
+  { name: 'IconAirport', component: IconAirport },
+  { name: 'IconAlarm', component: IconAlarm },
+  { name: 'IconAlbum', component: IconAlbum },
+  { name: 'IconAlign', component: IconAlign },
+  { name: 'IconAll', component: IconAll },
+  { name: 'IconAlt', component: IconAlt },
+  { name: 'IconAlternate', component: IconAlternate },
+  { name: 'IconAnalytics', component: IconAnalytics },
+  { name: 'IconAnchor', component: IconAnchor },
+  { name: 'IconAndroid', component: IconAndroid },
+  { name: 'IconAnimation', component: IconAnimation },
+  { name: 'IconAnnouncement', component: IconAnnouncement },
+  { name: 'IconAod', component: IconAod },
+  { name: 'IconApartment', component: IconApartment },
+  { name: 'IconApi', component: IconApi },
+  { name: 'IconApp', component: IconApp },
+  { name: 'IconApproval', component: IconApproval },
+  { name: 'IconApps', component: IconApps },
+  { name: 'IconArchitecture', component: IconArchitecture },
+  { name: 'IconArchive', component: IconArchive },
+  { name: 'IconArea', component: IconArea },
+  { name: 'IconArrow', component: IconArrow },
+  { name: 'IconArt', component: IconArt },
+  { name: 'IconArticle', component: IconArticle },
+  { name: 'IconAspect', component: IconAspect },
+  { name: 'IconAssessment', component: IconAssessment },
+  { name: 'IconAssignment', component: IconAssignment },
+  { name: 'IconAssist', component: IconAssist },
+  { name: 'IconAssistant', component: IconAssistant },
+  { name: 'IconAssured', component: IconAssured },
+  { name: 'IconAtm', component: IconAtm },
+  { name: 'IconAttach', component: IconAttach },
+  { name: 'IconAttachment', component: IconAttachment },
+  { name: 'IconAttractions', component: IconAttractions },
+  { name: 'IconAttribution', component: IconAttribution },
+  { name: 'IconAudio', component: IconAudio },
+  { name: 'IconAudiotrack', component: IconAudiotrack },
+  { name: 'IconAuto', component: IconAuto },
+  { name: 'IconAutofps', component: IconAutofps },
+  { name: 'IconAutorenew', component: IconAutorenew },
+  { name: 'IconAv', component: IconAv },
+  { name: 'IconBaby', component: IconBaby },
+  { name: 'IconBack', component: IconBack },
+  { name: 'IconBackpack', component: IconBackpack },
+  { name: 'IconBackspace', component: IconBackspace },
+  { name: 'IconBackup', component: IconBackup },
+  { name: 'IconBadge', component: IconBadge },
+  { name: 'IconBakery', component: IconBakery },
+  { name: 'IconBalance', component: IconBalance },
+  { name: 'IconBalcony', component: IconBalcony },
+  { name: 'IconBallot', component: IconBallot },
+  { name: 'IconBar', component: IconBar },
+  { name: 'IconBarcode', component: IconBarcode },
+  { name: 'IconBatch', component: IconBatch },
+  { name: 'IconBathroom', component: IconBathroom },
+  { name: 'IconBathtub', component: IconBathtub },
+  { name: 'IconBattery', component: IconBattery },
+  { name: 'IconBeach', component: IconBeach },
+  { name: 'IconBed', component: IconBed },
+  { name: 'IconBedroom', component: IconBedroom },
+  { name: 'IconBedtime', component: IconBedtime },
+  { name: 'IconBeenhere', component: IconBeenhere },
+  { name: 'IconBento', component: IconBento },
+  { name: 'IconBike', component: IconBike },
+  { name: 'IconBiotech', component: IconBiotech },
+  { name: 'IconBlender', component: IconBlender },
+  { name: 'IconBlind', component: IconBlind },
+  { name: 'IconBlinds', component: IconBlinds },
+  { name: 'IconBlock', component: IconBlock },
+  { name: 'IconBloodtype', component: IconBloodtype },
+  { name: 'IconBluetooth', component: IconBluetooth },
+  { name: 'IconBlur', component: IconBlur },
+  { name: 'IconBolt', component: IconBolt },
+  { name: 'IconBook', component: IconBook },
+  { name: 'IconBookmark', component: IconBookmark },
+  { name: 'IconBookmarks', component: IconBookmarks },
+  { name: 'IconBorder', component: IconBorder },
+  { name: 'IconBoy', component: IconBoy },
+  { name: 'IconBranding', component: IconBranding },
+  { name: 'IconBreakfast', component: IconBreakfast },
+  { name: 'IconBrightness', component: IconBrightness },
+  { name: 'IconBroadcast', component: IconBroadcast },
+  { name: 'IconBroken', component: IconBroken },
+  { name: 'IconBrowse', component: IconBrowse },
+  { name: 'IconBrowser', component: IconBrowser },
+  { name: 'IconBrunch', component: IconBrunch },
+  { name: 'IconBrush', component: IconBrush },
+  { name: 'IconBubble', component: IconBubble },
+  { name: 'IconBug', component: IconBug },
+  { name: 'IconBuild', component: IconBuild },
+  { name: 'IconBungalow', component: IconBungalow },
+  { name: 'IconBurst', component: IconBurst },
+  { name: 'IconBus', component: IconBus },
+  { name: 'IconBusiness', component: IconBusiness },
+  { name: 'IconCabin', component: IconCabin },
+  { name: 'IconCable', component: IconCable },
+  { name: 'IconCached', component: IconCached },
+  { name: 'IconCake', component: IconCake },
+  { name: 'IconCalculate', component: IconCalculate },
+  { name: 'IconCalendar', component: IconCalendar },
+  { name: 'IconCall', component: IconCall },
+  { name: 'IconCamera', component: IconCamera },
+  { name: 'IconCameraswitch', component: IconCameraswitch },
+  { name: 'IconCampaign', component: IconCampaign },
+  { name: 'IconCancel', component: IconCancel },
+  { name: 'IconCandlestick', component: IconCandlestick },
+  { name: 'IconCar', component: IconCar },
+  { name: 'IconCard', component: IconCard },
+  { name: 'IconCarpenter', component: IconCarpenter },
+  { name: 'IconCases', component: IconCases },
+  { name: 'IconCasino', component: IconCasino },
+  { name: 'IconCast', component: IconCast },
+  { name: 'IconCastle', component: IconCastle },
+  { name: 'IconCatching', component: IconCatching },
+  { name: 'IconCategory', component: IconCategory },
+  { name: 'IconCelebration', component: IconCelebration },
+  { name: 'IconCell', component: IconCell },
+  { name: 'IconCenter', component: IconCenter },
+  { name: 'IconChair', component: IconChair },
+  { name: 'IconChalet', component: IconChalet },
+  { name: 'IconChange', component: IconChange },
+  { name: 'IconCharging', component: IconCharging },
+  { name: 'IconChat', component: IconChat },
+  { name: 'IconCheck', component: IconCheck },
+  { name: 'IconChecklist', component: IconChecklist },
+  { name: 'IconCheckroom', component: IconCheckroom },
+  { name: 'IconChevron', component: IconChevron },
+  { name: 'IconChild', component: IconChild },
+  { name: 'IconChrome', component: IconChrome },
+  { name: 'IconChurch', component: IconChurch },
+  { name: 'IconCircle', component: IconCircle },
+  { name: 'IconClass', component: IconClass },
+  { name: 'IconClean', component: IconClean },
+  { name: 'IconCleaning', component: IconCleaning },
+  { name: 'IconClear', component: IconClear },
+  { name: 'IconClose', component: IconClose },
+  { name: 'IconClosed', component: IconClosed },
+  { name: 'IconCloud', component: IconCloud },
+  { name: 'IconCloudy', component: IconCloudy },
+  { name: 'IconCo', component: IconCo },
+  { name: 'IconCo2', component: IconCo2 },
+  { name: 'IconCode', component: IconCode },
+  { name: 'IconCoffee', component: IconCoffee },
+  { name: 'IconCollections', component: IconCollections },
+  { name: 'IconColor', component: IconColor },
+  { name: 'IconColorize', component: IconColorize },
+  { name: 'IconComment', component: IconComment },
+  { name: 'IconComments', component: IconComments },
+  { name: 'IconCommit', component: IconCommit },
+  { name: 'IconCommute', component: IconCommute },
+  { name: 'IconCompare', component: IconCompare },
+  { name: 'IconCompass', component: IconCompass },
+  { name: 'IconCompost', component: IconCompost },
+  { name: 'IconCompress', component: IconCompress },
+  { name: 'IconComputer', component: IconComputer },
+  { name: 'IconConfirmation', component: IconConfirmation },
+  { name: 'IconConnect', component: IconConnect },
+  { name: 'IconConnected', component: IconConnected },
+  { name: 'IconConnecting', component: IconConnecting },
+  { name: 'IconConstruction', component: IconConstruction },
+  { name: 'IconContact', component: IconContact },
+  { name: 'IconContactless', component: IconContactless },
+  { name: 'IconContacts', component: IconContacts },
+  { name: 'IconContent', component: IconContent },
+  { name: 'IconContrast', component: IconContrast },
+  { name: 'IconControl', component: IconControl },
+  { name: 'IconConveyor', component: IconConveyor },
+  { name: 'IconCookie', component: IconCookie },
+  { name: 'IconCopy', component: IconCopy },
+  { name: 'IconCopyright', component: IconCopyright },
+  { name: 'IconCoronavirus', component: IconCoronavirus },
+  { name: 'IconCorporate', component: IconCorporate },
+  { name: 'IconCottage', component: IconCottage },
+  { name: 'IconCountertops', component: IconCountertops },
+  { name: 'IconCreate', component: IconCreate },
+  { name: 'IconCredit', component: IconCredit },
+  { name: 'IconCrib', component: IconCrib },
+  { name: 'IconCrisis', component: IconCrisis },
+  { name: 'IconCrop', component: IconCrop },
+  { name: 'IconCrown', component: IconCrown },
+  { name: 'IconCruelty', component: IconCruelty },
+  { name: 'IconCss', component: IconCss },
+  { name: 'IconCurrency', component: IconCurrency },
+  { name: 'IconCurtains', component: IconCurtains },
+  { name: 'IconCyclone', component: IconCyclone },
+  { name: 'IconDangerous', component: IconDangerous },
+  { name: 'IconDark', component: IconDark },
+  { name: 'IconDashboard', component: IconDashboard },
+  { name: 'IconData', component: IconData },
+  { name: 'IconDataset', component: IconDataset },
+  { name: 'IconDate', component: IconDate },
+  { name: 'IconDeblur', component: IconDeblur },
+  { name: 'IconDeck', component: IconDeck },
+  { name: 'IconDehaze', component: IconDehaze },
+  { name: 'IconDelete', component: IconDelete },
+  { name: 'IconDelivery', component: IconDelivery },
+  { name: 'IconDensity', component: IconDensity },
+  { name: 'IconDeparture', component: IconDeparture },
+  { name: 'IconDescription', component: IconDescription },
+  { name: 'IconDeselect', component: IconDeselect },
+  { name: 'IconDesign', component: IconDesign },
+  { name: 'IconDesk', component: IconDesk },
+  { name: 'IconDesktop', component: IconDesktop },
+  { name: 'IconDetails', component: IconDetails },
+  { name: 'IconDeveloper', component: IconDeveloper },
+  { name: 'IconDevice', component: IconDevice },
+  { name: 'IconDevices', component: IconDevices },
+  { name: 'IconDew', component: IconDew },
+  { name: 'IconDialer', component: IconDialer },
+  { name: 'IconDialpad', component: IconDialpad },
+  { name: 'IconDiamond', component: IconDiamond },
+  { name: 'IconDifference', component: IconDifference },
+  { name: 'IconDining', component: IconDining },
+  { name: 'IconDinner', component: IconDinner },
+  { name: 'IconDirections', component: IconDirections },
+  { name: 'IconDirty', component: IconDirty },
+  { name: 'IconDisabled', component: IconDisabled },
+  { name: 'IconDisc', component: IconDisc },
+  { name: 'IconDiscount', component: IconDiscount },
+  { name: 'IconDislike', component: IconDislike },
+  { name: 'IconDisplay', component: IconDisplay },
+  { name: 'IconDiversity', component: IconDiversity },
+  { name: 'IconDns', component: IconDns },
+  { name: 'IconDo', component: IconDo },
+  { name: 'IconDock', component: IconDock },
+  { name: 'IconDocument', component: IconDocument },
+  { name: 'IconDomain', component: IconDomain },
+  { name: 'IconDone', component: IconDone },
+  { name: 'IconDonut', component: IconDonut },
+  { name: 'IconDoor', component: IconDoor },
+  { name: 'IconDoorbell', component: IconDoorbell },
+  { name: 'IconDouble', component: IconDouble },
+  { name: 'IconDownhill', component: IconDownhill },
+  { name: 'IconDownload', component: IconDownload },
+  { name: 'IconDownloading', component: IconDownloading },
+  { name: 'IconDrafts', component: IconDrafts },
+  { name: 'IconDrag', component: IconDrag },
+  { name: 'IconDraw', component: IconDraw },
+  { name: 'IconDrive', component: IconDrive },
+  { name: 'IconDry', component: IconDry },
+  { name: 'IconDuo', component: IconDuo },
+  { name: 'IconDvr', component: IconDvr },
+  { name: 'IconDynamic', component: IconDynamic },
+  { name: 'IconE', component: IconE },
+  { name: 'IconEarbuds', component: IconEarbuds },
+  { name: 'IconEast', component: IconEast },
+  { name: 'IconEdgesensor', component: IconEdgesensor },
+  { name: 'IconEdit', component: IconEdit },
+  { name: 'IconEgg', component: IconEgg },
+  { name: 'IconEject', component: IconEject },
+  { name: 'IconElderly', component: IconElderly },
+  { name: 'IconElectric', component: IconElectric },
+  { name: 'IconElectrical', component: IconElectrical },
+  { name: 'IconElevator', component: IconElevator },
+  { name: 'IconEmail', component: IconEmail },
+  { name: 'IconEmergency', component: IconEmergency },
+  { name: 'IconEmoji', component: IconEmoji },
+  { name: 'IconEmpty', component: IconEmpty },
+  { name: 'IconEnergy', component: IconEnergy },
+  { name: 'IconEngineering', component: IconEngineering },
+  { name: 'IconEnhanced', component: IconEnhanced },
+  { name: 'IconEqualizer', component: IconEqualizer },
+  { name: 'IconError', component: IconError },
+  { name: 'IconEscalator', component: IconEscalator },
+  { name: 'IconEuro', component: IconEuro },
+  { name: 'IconEv', component: IconEv },
+  { name: 'IconEvent', component: IconEvent },
+  { name: 'IconExit', component: IconExit },
+  { name: 'IconExpand', component: IconExpand },
+  { name: 'IconExplicit', component: IconExplicit },
+  { name: 'IconExplore', component: IconExplore },
+  { name: 'IconExposure', component: IconExposure },
+  { name: 'IconExtension', component: IconExtension },
+  { name: 'IconFace', component: IconFace },
+  { name: 'IconFact', component: IconFact },
+  { name: 'IconFactory', component: IconFactory },
+  { name: 'IconFamily', component: IconFamily },
+  { name: 'IconFast', component: IconFast },
+  { name: 'IconFastfood', component: IconFastfood },
+  { name: 'IconFavorite', component: IconFavorite },
+  { name: 'IconFax', component: IconFax },
+  { name: 'IconFeatured', component: IconFeatured },
+  { name: 'IconFeed', component: IconFeed },
+  { name: 'IconFeedback', component: IconFeedback },
+  { name: 'IconFemale', component: IconFemale },
+  { name: 'IconFence', component: IconFence },
+  { name: 'IconFestival', component: IconFestival },
+  { name: 'IconFiber', component: IconFiber },
+  { name: 'IconFile', component: IconFile },
+  { name: 'IconFilter', component: IconFilter },
+  { name: 'IconFind', component: IconFind },
+  { name: 'IconFingerprint', component: IconFingerprint },
+  { name: 'IconFire', component: IconFire },
+  { name: 'IconFireplace', component: IconFireplace },
+  { name: 'IconFirst', component: IconFirst },
+  { name: 'IconFit', component: IconFit },
+  { name: 'IconFitbit', component: IconFitbit },
+  { name: 'IconFitness', component: IconFitness },
+  { name: 'IconFlag', component: IconFlag },
+  { name: 'IconFlaky', component: IconFlaky },
+  { name: 'IconFlare', component: IconFlare },
+  { name: 'IconFlash', component: IconFlash },
+  { name: 'IconFlashlight', component: IconFlashlight },
+  { name: 'IconFlatware', component: IconFlatware },
+  { name: 'IconFlight', component: IconFlight },
+  { name: 'IconFlip', component: IconFlip },
+  { name: 'IconFlood', component: IconFlood },
+  { name: 'IconFluorescent', component: IconFluorescent },
+  { name: 'IconFlutter', component: IconFlutter },
+  { name: 'IconFmd', component: IconFmd },
+  { name: 'IconFoggy', component: IconFoggy },
+  { name: 'IconFolder', component: IconFolder },
+  { name: 'IconFollow', component: IconFollow },
+  { name: 'IconFont', component: IconFont },
+  { name: 'IconFood', component: IconFood },
+  { name: 'IconForest', component: IconForest },
+  { name: 'IconFork', component: IconFork },
+  { name: 'IconForklift', component: IconForklift },
+  { name: 'IconFormat', component: IconFormat },
+  { name: 'IconFort', component: IconFort },
+  { name: 'IconForum', component: IconForum },
+  { name: 'IconForward', component: IconForward },
+  { name: 'IconFoundation', component: IconFoundation },
+  { name: 'IconFree', component: IconFree },
+  { name: 'IconFront', component: IconFront },
+  { name: 'IconFullscreen', component: IconFullscreen },
+  { name: 'IconFunctions', component: IconFunctions },
+  { name: 'IconG', component: IconG },
+  { name: 'IconGamepad', component: IconGamepad },
+  { name: 'IconGames', component: IconGames },
+  { name: 'IconGarage', component: IconGarage },
+  { name: 'IconGas', component: IconGas },
+  { name: 'IconGavel', component: IconGavel },
+  { name: 'IconGenerating', component: IconGenerating },
+  { name: 'IconGesture', component: IconGesture },
+  { name: 'IconGet', component: IconGet },
+  { name: 'IconGif', component: IconGif },
+  { name: 'IconGirl', component: IconGirl },
+  { name: 'IconGite', component: IconGite },
+  { name: 'IconGolf', component: IconGolf },
+  { name: 'IconGpp', component: IconGpp },
+  { name: 'IconGps', component: IconGps },
+  { name: 'IconGrade', component: IconGrade },
+  { name: 'IconGradient', component: IconGradient },
+  { name: 'IconGrading', component: IconGrading },
+  { name: 'IconGrain', component: IconGrain },
+  { name: 'IconGraphic', component: IconGraphic },
+  { name: 'IconGrass', component: IconGrass },
+  { name: 'IconGrid', component: IconGrid },
+  { name: 'IconGridTest', component: IconGridTest },
+  { name: 'IconGroup', component: IconGroup },
+  { name: 'IconGroups', component: IconGroups },
+  { name: 'IconH', component: IconH },
+  { name: 'IconHail', component: IconHail },
+  { name: 'IconHandshake', component: IconHandshake },
+  { name: 'IconHandyman', component: IconHandyman },
+  { name: 'IconHardware', component: IconHardware },
+  { name: 'IconHd', component: IconHd },
+  { name: 'IconHdr', component: IconHdr },
+  { name: 'IconHeadphones', component: IconHeadphones },
+  { name: 'IconHeadset', component: IconHeadset },
+  { name: 'IconHealing', component: IconHealing },
+  { name: 'IconHealth', component: IconHealth },
+  { name: 'IconHearing', component: IconHearing },
+  { name: 'IconHeart', component: IconHeart },
+  { name: 'IconHeat', component: IconHeat },
+  { name: 'IconHeight', component: IconHeight },
+  { name: 'IconHelp', component: IconHelp },
+  { name: 'IconHevc', component: IconHevc },
+  { name: 'IconHexagon', component: IconHexagon },
+  { name: 'IconHide', component: IconHide },
+  { name: 'IconHigh', component: IconHigh },
+  { name: 'IconHighlight', component: IconHighlight },
+  { name: 'IconHiking', component: IconHiking },
+  { name: 'IconHistory', component: IconHistory },
+  { name: 'IconHive', component: IconHive },
+  { name: 'IconHls', component: IconHls },
+  { name: 'IconHoliday', component: IconHoliday },
+  { name: 'IconHome', component: IconHome },
+  { name: 'IconHorizontal', component: IconHorizontal },
+  { name: 'IconHot', component: IconHot },
+  { name: 'IconHotel', component: IconHotel },
+  { name: 'IconHourglass', component: IconHourglass },
+  { name: 'IconHouse', component: IconHouse },
+  { name: 'IconHouseboat', component: IconHouseboat },
+  { name: 'IconHow', component: IconHow },
+  { name: 'IconHtml', component: IconHtml },
+  { name: 'IconHttp', component: IconHttp },
+  { name: 'IconHttps', component: IconHttps },
+  { name: 'IconHub', component: IconHub },
+  { name: 'IconHvac', component: IconHvac },
+  { name: 'IconIce', component: IconIce },
+  { name: 'IconIcecream', component: IconIcecream },
+  { name: 'IconImage', component: IconImage },
+  { name: 'IconImagesearch', component: IconImagesearch },
+  { name: 'IconImport', component: IconImport },
+  { name: 'IconImportant', component: IconImportant },
+  { name: 'IconInbox', component: IconInbox },
+  { name: 'IconIncomplete', component: IconIncomplete },
+  { name: 'IconIndeterminate', component: IconIndeterminate },
+  { name: 'IconInfo', component: IconInfo },
+  { name: 'IconInput', component: IconInput },
+  { name: 'IconInsert', component: IconInsert },
+  { name: 'IconInsights', component: IconInsights },
+  { name: 'IconInstall', component: IconInstall },
+  { name: 'IconIntegration', component: IconIntegration },
+  { name: 'IconInterests', component: IconInterests },
+  { name: 'IconInterpreter', component: IconInterpreter },
+  { name: 'IconInventory', component: IconInventory },
+  { name: 'IconInvert', component: IconInvert },
+  { name: 'IconIos', component: IconIos },
+  { name: 'IconIron', component: IconIron },
+  { name: 'IconIso', component: IconIso },
+  { name: 'IconJavascript', component: IconJavascript },
+  { name: 'IconJoin', component: IconJoin },
+  { name: 'IconKayaking', component: IconKayaking },
+  { name: 'IconKebab', component: IconKebab },
+  { name: 'IconKey', component: IconKey },
+  { name: 'IconKeyboard', component: IconKeyboard },
+  { name: 'IconKing', component: IconKing },
+  { name: 'IconKitchen', component: IconKitchen },
+  { name: 'IconKitesurfing', component: IconKitesurfing },
+  { name: 'IconLabel', component: IconLabel },
+  { name: 'IconLan', component: IconLan },
+  { name: 'IconLandscape', component: IconLandscape },
+  { name: 'IconLandslide', component: IconLandslide },
+  { name: 'IconLanguage', component: IconLanguage },
+  { name: 'IconLaptop', component: IconLaptop },
+  { name: 'IconLast', component: IconLast },
+  { name: 'IconLaunch', component: IconLaunch },
+  { name: 'IconLayers', component: IconLayers },
+  { name: 'IconLeaderboard', component: IconLeaderboard },
+  { name: 'IconLeak', component: IconLeak },
+  { name: 'IconLegend', component: IconLegend },
+  { name: 'IconLens', component: IconLens },
+  { name: 'IconLibrary', component: IconLibrary },
+  { name: 'IconLight', component: IconLight },
+  { name: 'IconLightbulb', component: IconLightbulb },
+  { name: 'IconLike', component: IconLike },
+  { name: 'IconLine', component: IconLine },
+  { name: 'IconLinear', component: IconLinear },
+  { name: 'IconLink', component: IconLink },
+  { name: 'IconLinked', component: IconLinked },
+  { name: 'IconLiquor', component: IconLiquor },
+  { name: 'IconList', component: IconList },
+  { name: 'IconLive', component: IconLive },
+  { name: 'IconLiving', component: IconLiving },
+  { name: 'IconLocal', component: IconLocal },
+  { name: 'IconLocation', component: IconLocation },
+  { name: 'IconLock', component: IconLock },
+  { name: 'IconLogin', component: IconLogin },
+  { name: 'IconLogo', component: IconLogo },
+  { name: 'IconLogout', component: IconLogout },
+  { name: 'IconLooks', component: IconLooks },
+  { name: 'IconLoop', component: IconLoop },
+  { name: 'IconLoupe', component: IconLoupe },
+  { name: 'IconLow', component: IconLow },
+  { name: 'IconLoyalty', component: IconLoyalty },
+  { name: 'IconLte', component: IconLte },
+  { name: 'IconLuggage', component: IconLuggage },
+  { name: 'IconLunch', component: IconLunch },
+  { name: 'IconLyrics', component: IconLyrics },
+  { name: 'IconMacro', component: IconMacro },
+  { name: 'IconMail', component: IconMail },
+  { name: 'IconMale', component: IconMale },
+  { name: 'IconMan', component: IconMan },
+  { name: 'IconManage', component: IconManage },
+  { name: 'IconMap', component: IconMap },
+  { name: 'IconMaps', component: IconMaps },
+  { name: 'IconMargin', component: IconMargin },
+  { name: 'IconMark', component: IconMark },
+  { name: 'IconMarkunread', component: IconMarkunread },
+  { name: 'IconMasks', component: IconMasks },
+  { name: 'IconMaximize', component: IconMaximize },
+  { name: 'IconMedia', component: IconMedia },
+  { name: 'IconMediation', component: IconMediation },
+  { name: 'IconMedical', component: IconMedical },
+  { name: 'IconMedication', component: IconMedication },
+  { name: 'IconMeeting', component: IconMeeting },
+  { name: 'IconMemory', component: IconMemory },
+  { name: 'IconMenu', component: IconMenu },
+  { name: 'IconMerge', component: IconMerge },
+  { name: 'IconMessage', component: IconMessage },
+  { name: 'IconMic', component: IconMic },
+  { name: 'IconMicrowave', component: IconMicrowave },
+  { name: 'IconMilitary', component: IconMilitary },
+  { name: 'IconMinimize', component: IconMinimize },
+  { name: 'IconMinor', component: IconMinor },
+  { name: 'IconMiscellaneous', component: IconMiscellaneous },
+  { name: 'IconMissed', component: IconMissed },
+  { name: 'IconMms', component: IconMms },
+  { name: 'IconMobile', component: IconMobile },
+  { name: 'IconMobiledata', component: IconMobiledata },
+  { name: 'IconMode', component: IconMode },
+  { name: 'IconModel', component: IconModel },
+  { name: 'IconMonetization', component: IconMonetization },
+  { name: 'IconMoney', component: IconMoney },
+  { name: 'IconMonitor', component: IconMonitor },
+  { name: 'IconMonochrome', component: IconMonochrome },
+  { name: 'IconMood', component: IconMood },
+  { name: 'IconMoped', component: IconMoped },
+  { name: 'IconMore', component: IconMore },
+  { name: 'IconMosque', component: IconMosque },
+  { name: 'IconMotion', component: IconMotion },
+  { name: 'IconMouse', component: IconMouse },
+  { name: 'IconMove', component: IconMove },
+  { name: 'IconMovie', component: IconMovie },
+  { name: 'IconMoving', component: IconMoving },
+  { name: 'IconMp', component: IconMp },
+  { name: 'IconMultiline', component: IconMultiline },
+  { name: 'IconMultiple', component: IconMultiple },
+  { name: 'IconMuseum', component: IconMuseum },
+  { name: 'IconMusic', component: IconMusic },
+  { name: 'IconMy', component: IconMy },
+  { name: 'IconNat', component: IconNat },
+  { name: 'IconNature', component: IconNature },
+  { name: 'IconNavigate', component: IconNavigate },
+  { name: 'IconNavigation', component: IconNavigation },
+  { name: 'IconNear', component: IconNear },
+  { name: 'IconNearby', component: IconNearby },
+  { name: 'IconNest', component: IconNest },
+  { name: 'IconNetwork', component: IconNetwork },
+  { name: 'IconNew', component: IconNew },
+  { name: 'IconNewspaper', component: IconNewspaper },
+  { name: 'IconNext', component: IconNext },
+  { name: 'IconNfc', component: IconNfc },
+  { name: 'IconNight', component: IconNight },
+  { name: 'IconNightlife', component: IconNightlife },
+  { name: 'IconNightlight', component: IconNightlight },
+  { name: 'IconNights', component: IconNights },
+  { name: 'IconNo', component: IconNo },
+  { name: 'IconNoise', component: IconNoise },
+  { name: 'IconNordic', component: IconNordic },
+  { name: 'IconNorth', component: IconNorth },
+  { name: 'IconNot', component: IconNot },
+  { name: 'IconNote', component: IconNote },
+  { name: 'IconNotes', component: IconNotes },
+  { name: 'IconNotification', component: IconNotification },
+  { name: 'IconNotifications', component: IconNotifications },
+  { name: 'IconNumbers', component: IconNumbers },
+  { name: 'IconOffline', component: IconOffline },
+  { name: 'IconOil', component: IconOil },
+  { name: 'IconOn', component: IconOn },
+  { name: 'IconOndemand', component: IconOndemand },
+  { name: 'IconOnline', component: IconOnline },
+  { name: 'IconOpacity', component: IconOpacity },
+  { name: 'IconOpen', component: IconOpen },
+  { name: 'IconOther', component: IconOther },
+  { name: 'IconOutbound', component: IconOutbound },
+  { name: 'IconOutbox', component: IconOutbox },
+  { name: 'IconOutdoor', component: IconOutdoor },
+  { name: 'IconOutgoing', component: IconOutgoing },
+  { name: 'IconOutlet', component: IconOutlet },
+  { name: 'IconOutlined', component: IconOutlined },
+  { name: 'IconOutput', component: IconOutput },
+  { name: 'IconPadding', component: IconPadding },
+  { name: 'IconPages', component: IconPages },
+  { name: 'IconPageview', component: IconPageview },
+  { name: 'IconPaid', component: IconPaid },
+  { name: 'IconPalette', component: IconPalette },
+  { name: 'IconPallet', component: IconPallet },
+  { name: 'IconPan', component: IconPan },
+  { name: 'IconPanorama', component: IconPanorama },
+  { name: 'IconParagliding', component: IconParagliding },
+  { name: 'IconPark', component: IconPark },
+  { name: 'IconParty', component: IconParty },
+  { name: 'IconPassword', component: IconPassword },
+  { name: 'IconPattern', component: IconPattern },
+  { name: 'IconPause', component: IconPause },
+  { name: 'IconPayment', component: IconPayment },
+  { name: 'IconPayments', component: IconPayments },
+  { name: 'IconPedal', component: IconPedal },
+  { name: 'IconPending', component: IconPending },
+  { name: 'IconPentagon', component: IconPentagon },
+  { name: 'IconPeople', component: IconPeople },
+  { name: 'IconPercent', component: IconPercent },
+  { name: 'IconPerm', component: IconPerm },
+  { name: 'IconPerson', component: IconPerson },
+  { name: 'IconPersonal', component: IconPersonal },
+  { name: 'IconPest', component: IconPest },
+  { name: 'IconPets', component: IconPets },
+  { name: 'IconPhishing', component: IconPhishing },
+  { name: 'IconPhone', component: IconPhone },
+  { name: 'IconPhonelink', component: IconPhonelink },
+  { name: 'IconPhoto', component: IconPhoto },
+  { name: 'IconPhp', component: IconPhp },
+  { name: 'IconPiano', component: IconPiano },
+  { name: 'IconPicture', component: IconPicture },
+  { name: 'IconPie', component: IconPie },
+  { name: 'IconPin', component: IconPin },
+  { name: 'IconPinch', component: IconPinch },
+  { name: 'IconPivot', component: IconPivot },
+  { name: 'IconPix', component: IconPix },
+  { name: 'IconPlace', component: IconPlace },
+  { name: 'IconPlagiarism', component: IconPlagiarism },
+  { name: 'IconPlay', component: IconPlay },
+  { name: 'IconPlaylist', component: IconPlaylist },
+  { name: 'IconPlumbing', component: IconPlumbing },
+  { name: 'IconPlus', component: IconPlus },
+  { name: 'IconPodcasts', component: IconPodcasts },
+  { name: 'IconPoint', component: IconPoint },
+  { name: 'IconPolicy', component: IconPolicy },
+  { name: 'IconPoll', component: IconPoll },
+  { name: 'IconPolyline', component: IconPolyline },
+  { name: 'IconPool', component: IconPool },
+  { name: 'IconPortable', component: IconPortable },
+  { name: 'IconPortrait', component: IconPortrait },
+  { name: 'IconPost', component: IconPost },
+  { name: 'IconPower', component: IconPower },
+  { name: 'IconPrecision', component: IconPrecision },
+  { name: 'IconPregnant', component: IconPregnant },
+  { name: 'IconPresent', component: IconPresent },
+  { name: 'IconPreview', component: IconPreview },
+  { name: 'IconPrice', component: IconPrice },
+  { name: 'IconPrint', component: IconPrint },
+  { name: 'IconPriority', component: IconPriority },
+  { name: 'IconPrivacy', component: IconPrivacy },
+  { name: 'IconPrivate', component: IconPrivate },
+  { name: 'IconProduction', component: IconProduction },
+  { name: 'IconPropane', component: IconPropane },
+  { name: 'IconPsychology', component: IconPsychology },
+  { name: 'IconPublic', component: IconPublic },
+  { name: 'IconPublish', component: IconPublish },
+  { name: 'IconPublished', component: IconPublished },
+  { name: 'IconPunch', component: IconPunch },
+  { name: 'IconPush', component: IconPush },
+  { name: 'IconQr', component: IconQr },
+  { name: 'IconQuery', component: IconQuery },
+  { name: 'IconQuestion', component: IconQuestion },
+  { name: 'IconQueue', component: IconQueue },
+  { name: 'IconQuickreply', component: IconQuickreply },
+  { name: 'IconQuiz', component: IconQuiz },
+  { name: 'IconR', component: IconR },
+  { name: 'IconRadar', component: IconRadar },
+  { name: 'IconRadio', component: IconRadio },
+  { name: 'IconRailway', component: IconRailway },
+  { name: 'IconRamen', component: IconRamen },
+  { name: 'IconRamp', component: IconRamp },
+  { name: 'IconRate', component: IconRate },
+  { name: 'IconRaw', component: IconRaw },
+  { name: 'IconRead', component: IconRead },
+  { name: 'IconReal', component: IconReal },
+  { name: 'IconRebase', component: IconRebase },
+  { name: 'IconReceipt', component: IconReceipt },
+  { name: 'IconRecent', component: IconRecent },
+  { name: 'IconRecommend', component: IconRecommend },
+  { name: 'IconRecord', component: IconRecord },
+  { name: 'IconRectangle', component: IconRectangle },
+  { name: 'IconRecycling', component: IconRecycling },
+  { name: 'IconRedeem', component: IconRedeem },
+  { name: 'IconRedo', component: IconRedo },
+  { name: 'IconReduce', component: IconReduce },
+  { name: 'IconRefresh', component: IconRefresh },
+  { name: 'IconRemember', component: IconRemember },
+  { name: 'IconRemove', component: IconRemove },
+  { name: 'IconReorder', component: IconReorder },
+  { name: 'IconRepartition', component: IconRepartition },
+  { name: 'IconRepeat', component: IconRepeat },
+  { name: 'IconReplay', component: IconReplay },
+  { name: 'IconReply', component: IconReply },
+  { name: 'IconReport', component: IconReport },
+  { name: 'IconReported', component: IconReported },
+  { name: 'IconRequest', component: IconRequest },
+  { name: 'IconReset', component: IconReset },
+  { name: 'IconRestart', component: IconRestart },
+  { name: 'IconRestaurant', component: IconRestaurant },
+  { name: 'IconRestore', component: IconRestore },
+  { name: 'IconReview', component: IconReview },
+  { name: 'IconReviews', component: IconReviews },
+  { name: 'IconRice', component: IconRice },
+  { name: 'IconRing', component: IconRing },
+  { name: 'IconRocket', component: IconRocket },
+  { name: 'IconRoller', component: IconRoller },
+  { name: 'IconRoofing', component: IconRoofing },
+  { name: 'IconRoom', component: IconRoom },
+  { name: 'IconRotate', component: IconRotate },
+  { name: 'IconRoundabout', component: IconRoundabout },
+  { name: 'IconRounded', component: IconRounded },
+  { name: 'IconRoute', component: IconRoute },
+  { name: 'IconRouter', component: IconRouter },
+  { name: 'IconRowing', component: IconRowing },
+  { name: 'IconRss', component: IconRss },
+  { name: 'IconRsvp', component: IconRsvp },
+  { name: 'IconRtt', component: IconRtt },
+  { name: 'IconRule', component: IconRule },
+  { name: 'IconRun', component: IconRun },
+  { name: 'IconRunning', component: IconRunning },
+  { name: 'IconRv', component: IconRv },
+  { name: 'IconSafety', component: IconSafety },
+  { name: 'IconSailing', component: IconSailing },
+  { name: 'IconSanitizer', component: IconSanitizer },
+  { name: 'IconSatellite', component: IconSatellite },
+  { name: 'IconSave', component: IconSave },
+  { name: 'IconSaved', component: IconSaved },
+  { name: 'IconSavings', component: IconSavings },
+  { name: 'IconScale', component: IconScale },
+  { name: 'IconScanner', component: IconScanner },
+  { name: 'IconScatter', component: IconScatter },
+  { name: 'IconSchedule', component: IconSchedule },
+  { name: 'IconSchema', component: IconSchema },
+  { name: 'IconSchool', component: IconSchool },
+  { name: 'IconScience', component: IconScience },
+  { name: 'IconScore', component: IconScore },
+  { name: 'IconScoreboard', component: IconScoreboard },
+  { name: 'IconScreen', component: IconScreen },
+  { name: 'IconScreenshot', component: IconScreenshot },
+  { name: 'IconScuba', component: IconScuba },
+  { name: 'IconSd', component: IconSd },
+  { name: 'IconSearch', component: IconSearch },
+  { name: 'IconSecurity', component: IconSecurity },
+  { name: 'IconSegment', component: IconSegment },
+  { name: 'IconSelect', component: IconSelect },
+  { name: 'IconSelf', component: IconSelf },
+  { name: 'IconSell', component: IconSell },
+  { name: 'IconSend', component: IconSend },
+  { name: 'IconSensor', component: IconSensor },
+  { name: 'IconSensors', component: IconSensors },
+  { name: 'IconSentiment', component: IconSentiment },
+  { name: 'IconSet', component: IconSet },
+  { name: 'IconSettings', component: IconSettings },
+  { name: 'IconSevere', component: IconSevere },
+  { name: 'IconShape', component: IconShape },
+  { name: 'IconShare', component: IconShare },
+  { name: 'IconShelves', component: IconShelves },
+  { name: 'IconShield', component: IconShield },
+  { name: 'IconShop', component: IconShop },
+  { name: 'IconShopping', component: IconShopping },
+  { name: 'IconShort', component: IconShort },
+  { name: 'IconShortcut', component: IconShortcut },
+  { name: 'IconShow', component: IconShow },
+  { name: 'IconShower', component: IconShower },
+  { name: 'IconShuffle', component: IconShuffle },
+  { name: 'IconShutter', component: IconShutter },
+  { name: 'IconSick', component: IconSick },
+  { name: 'IconSign', component: IconSign },
+  { name: 'IconSignal', component: IconSignal },
+  { name: 'IconSignpost', component: IconSignpost },
+  { name: 'IconSim', component: IconSim },
+  { name: 'IconSingle', component: IconSingle },
+  { name: 'IconSip', component: IconSip },
+  { name: 'IconSkateboarding', component: IconSkateboarding },
+  { name: 'IconSkip', component: IconSkip },
+  { name: 'IconSledding', component: IconSledding },
+  { name: 'IconSlideshow', component: IconSlideshow },
+  { name: 'IconSlow', component: IconSlow },
+  { name: 'IconSmart', component: IconSmart },
+  { name: 'IconSmartphone', component: IconSmartphone },
+  { name: 'IconSmoke', component: IconSmoke },
+  { name: 'IconSmoking', component: IconSmoking },
+  { name: 'IconSms', component: IconSms },
+  { name: 'IconSnippet', component: IconSnippet },
+  { name: 'IconSnooze', component: IconSnooze },
+  { name: 'IconSnowboarding', component: IconSnowboarding },
+  { name: 'IconSnowing', component: IconSnowing },
+  { name: 'IconSnowmobile', component: IconSnowmobile },
+  { name: 'IconSnowshoeing', component: IconSnowshoeing },
+  { name: 'IconSoap', component: IconSoap },
+  { name: 'IconSocial', component: IconSocial },
+  { name: 'IconSolar', component: IconSolar },
+  { name: 'IconSort', component: IconSort },
+  { name: 'IconSos', component: IconSos },
+  { name: 'IconSoup', component: IconSoup },
+  { name: 'IconSource', component: IconSource },
+  { name: 'IconSouth', component: IconSouth },
+  { name: 'IconSpa', component: IconSpa },
+  { name: 'IconSpace', component: IconSpace },
+  { name: 'IconSpatial', component: IconSpatial },
+  { name: 'IconSpeaker', component: IconSpeaker },
+  { name: 'IconSpeed', component: IconSpeed },
+  { name: 'IconSpellcheck', component: IconSpellcheck },
+  { name: 'IconSplitscreen', component: IconSplitscreen },
+  { name: 'IconSpoke', component: IconSpoke },
+  { name: 'IconSports', component: IconSports },
+  { name: 'IconSquare', component: IconSquare },
+  { name: 'IconSsid', component: IconSsid },
+  { name: 'IconStacked', component: IconStacked },
+  { name: 'IconStadium', component: IconStadium },
+  { name: 'IconStairs', component: IconStairs },
+  { name: 'IconStar', component: IconStar },
+  { name: 'IconStars', component: IconStars },
+  { name: 'IconStart', component: IconStart },
+  { name: 'IconStay', component: IconStay },
+  { name: 'IconSticky', component: IconSticky },
+  { name: 'IconStop', component: IconStop },
+  { name: 'IconStorage', component: IconStorage },
+  { name: 'IconStore', component: IconStore },
+  { name: 'IconStorefront', component: IconStorefront },
+  { name: 'IconStorm', component: IconStorm },
+  { name: 'IconStraight', component: IconStraight },
+  { name: 'IconStraighten', component: IconStraighten },
+  { name: 'IconStream', component: IconStream },
+  { name: 'IconStreetview', component: IconStreetview },
+  { name: 'IconStrikethrough', component: IconStrikethrough },
+  { name: 'IconStroller', component: IconStroller },
+  { name: 'IconStyle', component: IconStyle },
+  { name: 'IconSubdirectory', component: IconSubdirectory },
+  { name: 'IconSubject', component: IconSubject },
+  { name: 'IconSubmit', component: IconSubmit },
+  { name: 'IconSubscript', component: IconSubscript },
+  { name: 'IconSubscriptions', component: IconSubscriptions },
+  { name: 'IconSubtitles', component: IconSubtitles },
+  { name: 'IconSubway', component: IconSubway },
+  { name: 'IconSummarize', component: IconSummarize },
+  { name: 'IconSunny', component: IconSunny },
+  { name: 'IconSuperscript', component: IconSuperscript },
+  { name: 'IconSupervised', component: IconSupervised },
+  { name: 'IconSupervisor', component: IconSupervisor },
+  { name: 'IconSupport', component: IconSupport },
+  { name: 'IconSurfing', component: IconSurfing },
+  { name: 'IconSurround', component: IconSurround },
+  { name: 'IconSwap', component: IconSwap },
+  { name: 'IconSwipe', component: IconSwipe },
+  { name: 'IconSwitch', component: IconSwitch },
+  { name: 'IconSynagogue', component: IconSynagogue },
+  { name: 'IconSync', component: IconSync },
+  { name: 'IconSystem', component: IconSystem },
+  { name: 'IconTab', component: IconTab },
+  { name: 'IconTable', component: IconTable },
+  { name: 'IconTablet', component: IconTablet },
+  { name: 'IconTag', component: IconTag },
+  { name: 'IconTakeout', component: IconTakeout },
+  { name: 'IconTap', component: IconTap },
+  { name: 'IconTapas', component: IconTapas },
+  { name: 'IconTask', component: IconTask },
+  { name: 'IconTaxi', component: IconTaxi },
+  { name: 'IconTemple', component: IconTemple },
+  { name: 'IconTerminal', component: IconTerminal },
+  { name: 'IconTerrain', component: IconTerrain },
+  { name: 'IconText', component: IconText },
+  { name: 'IconTextsms', component: IconTextsms },
+  { name: 'IconTexture', component: IconTexture },
+  { name: 'IconTheater', component: IconTheater },
+  { name: 'IconTheaters', component: IconTheaters },
+  { name: 'IconThermostat', component: IconThermostat },
+  { name: 'IconThumb', component: IconThumb },
+  { name: 'IconThumbs', component: IconThumbs },
+  { name: 'IconThunderstorm', component: IconThunderstorm },
+  { name: 'IconTime', component: IconTime },
+  { name: 'IconTimelapse', component: IconTimelapse },
+  { name: 'IconTimeline', component: IconTimeline },
+  { name: 'IconTimer', component: IconTimer },
+  { name: 'IconTips', component: IconTips },
+  { name: 'IconTire', component: IconTire },
+  { name: 'IconTitle', component: IconTitle },
+  { name: 'IconToc', component: IconToc },
+  { name: 'IconToday', component: IconToday },
+  { name: 'IconToggle', component: IconToggle },
+  { name: 'IconToken', component: IconToken },
+  { name: 'IconToll', component: IconToll },
+  { name: 'IconTonality', component: IconTonality },
+  { name: 'IconTopic', component: IconTopic },
+  { name: 'IconTornado', component: IconTornado },
+  { name: 'IconTouch', component: IconTouch },
+  { name: 'IconTour', component: IconTour },
+  { name: 'IconToys', component: IconToys },
+  { name: 'IconTrack', component: IconTrack },
+  { name: 'IconTraffic', component: IconTraffic },
+  { name: 'IconTrain', component: IconTrain },
+  { name: 'IconTram', component: IconTram },
+  { name: 'IconTranscribe', component: IconTranscribe },
+  { name: 'IconTransfer', component: IconTransfer },
+  { name: 'IconTransform', component: IconTransform },
+  { name: 'IconTransgender', component: IconTransgender },
+  { name: 'IconTransit', component: IconTransit },
+  { name: 'IconTranslate', component: IconTranslate },
+  { name: 'IconTravel', component: IconTravel },
+  { name: 'IconTrending', component: IconTrending },
+  { name: 'IconTrip', component: IconTrip },
+  { name: 'IconTrolley', component: IconTrolley },
+  { name: 'IconTroubleshoot', component: IconTroubleshoot },
+  { name: 'IconTry', component: IconTry },
+  { name: 'IconTsunami', component: IconTsunami },
+  { name: 'IconTty', component: IconTty },
+  { name: 'IconTune', component: IconTune },
+  { name: 'IconTungsten', component: IconTungsten },
+  { name: 'IconTurn', component: IconTurn },
+  { name: 'IconTurned', component: IconTurned },
+  { name: 'IconTv', component: IconTv },
+  { name: 'IconTwo', component: IconTwo },
+  { name: 'IconType', component: IconType },
+  { name: 'IconU', component: IconU },
+  { name: 'IconUmbrella', component: IconUmbrella },
+  { name: 'IconUnarchive', component: IconUnarchive },
+  { name: 'IconUndo', component: IconUndo },
+  { name: 'IconUnfold', component: IconUnfold },
+  { name: 'IconUnpublished', component: IconUnpublished },
+  { name: 'IconUnsubscribe', component: IconUnsubscribe },
+  { name: 'IconUpcoming', component: IconUpcoming },
+  { name: 'IconUpdate', component: IconUpdate },
+  { name: 'IconUpgrade', component: IconUpgrade },
+  { name: 'IconUpload', component: IconUpload },
+  { name: 'IconUsb', component: IconUsb },
+  { name: 'IconVaccines', component: IconVaccines },
+  { name: 'IconVape', component: IconVape },
+  { name: 'IconVaping', component: IconVaping },
+  { name: 'IconVerified', component: IconVerified },
+  { name: 'IconVertical', component: IconVertical },
+  { name: 'IconVibration', component: IconVibration },
+  { name: 'IconVideo', component: IconVideo },
+  { name: 'IconVideocam', component: IconVideocam },
+  { name: 'IconVideogame', component: IconVideogame },
+  { name: 'IconView', component: IconView },
+  { name: 'IconVignette', component: IconVignette },
+  { name: 'IconVilla', component: IconVilla },
+  { name: 'IconVisibility', component: IconVisibility },
+  { name: 'IconVoice', component: IconVoice },
+  { name: 'IconVoicemail', component: IconVoicemail },
+  { name: 'IconVolcano', component: IconVolcano },
+  { name: 'IconVolume', component: IconVolume },
+  { name: 'IconVolunteer', component: IconVolunteer },
+  { name: 'IconVpn', component: IconVpn },
+  { name: 'IconVrpano', component: IconVrpano },
+  { name: 'IconWallet', component: IconWallet },
+  { name: 'IconWallpaper', component: IconWallpaper },
+  { name: 'IconWarehouse', component: IconWarehouse },
+  { name: 'IconWarning', component: IconWarning },
+  { name: 'IconWash', component: IconWash },
+  { name: 'IconWatch', component: IconWatch },
+  { name: 'IconWater', component: IconWater },
+  { name: 'IconWaterfall', component: IconWaterfall },
+  { name: 'IconWaves', component: IconWaves },
+  { name: 'IconWaving', component: IconWaving },
+  { name: 'IconWb', component: IconWb },
+  { name: 'IconWc', component: IconWc },
+  { name: 'IconWeb', component: IconWeb },
+  { name: 'IconWebhook', component: IconWebhook },
+  { name: 'IconWeekend', component: IconWeekend },
+  { name: 'IconWest', component: IconWest },
+  { name: 'IconWhatshot', component: IconWhatshot },
+  { name: 'IconWheelchair', component: IconWheelchair },
+  { name: 'IconWhere', component: IconWhere },
+  { name: 'IconWidgets', component: IconWidgets },
+  { name: 'IconWidth', component: IconWidth },
+  { name: 'IconWifi', component: IconWifi },
+  { name: 'IconWind', component: IconWind },
+  { name: 'IconWindow', component: IconWindow },
+  { name: 'IconWine', component: IconWine },
+  { name: 'IconWoman', component: IconWoman },
+  { name: 'IconWork', component: IconWork },
+  { name: 'IconWorkspace', component: IconWorkspace },
+  { name: 'IconWorkspaces', component: IconWorkspaces },
+  { name: 'IconWrap', component: IconWrap },
+  { name: 'IconWrong', component: IconWrong },
+  { name: 'IconWysiwyg', component: IconWysiwyg },
+  { name: 'IconYard', component: IconYard },
+  { name: 'IconYoutube', component: IconYoutube },
+  { name: 'IconZoom', component: IconZoom },
+  { name: 'IconZoomIn', component: IconZoomIn },
+  { name: 'InfoIcon', component: InfoIcon },
+  { name: 'InstagramIcon', component: InstagramIcon },
+  { name: 'Ios', component: Ios },
+  { name: 'LevelIcon', component: LevelIcon },
+  { name: 'LikeIcon', component: LikeIcon },
+  { name: 'LinkedinIcon', component: LinkedinIcon },
+  { name: 'MailAboutUs', component: MailAboutUs },
+  { name: 'MediaAboutUs', component: MediaAboutUs },
+  { name: 'MenuIcon', component: MenuIcon },
+  { name: 'MissionIcon', component: MissionIcon },
+  { name: 'NewStartUpgradePro', component: NewStartUpgradePro },
+  { name: 'OldFacebookIcon', component: OldFacebookIcon },
+  { name: 'OldYoutubeIcon', component: OldYoutubeIcon },
+  { name: 'ProPlanSvg', component: ProPlanSvg },
+  { name: 'RedditIcon', component: RedditIcon },
+  { name: 'SearchQuestion', component: SearchQuestion },
+  { name: 'StartIcon', component: StartIcon },
+  { name: 'StartUpgradeProIcon', component: StartUpgradeProIcon },
+  { name: 'TargetIcon', component: TargetIcon },
+  { name: 'ThumbDownIcon', component: ThumbDownIcon },
+  { name: 'ThumbUpIcon', component: ThumbUpIcon },
+  { name: 'TwitterIcon', component: TwitterIcon },
+  { name: 'UsersIcon', component: UsersIcon },
+  { name: 'VisionIcon', component: VisionIcon },
+  { name: 'XIcon', component: XIcon },
+  { name: 'YoutubeIcon', component: YoutubeIcon },
+];
+
+export default listIcon;
